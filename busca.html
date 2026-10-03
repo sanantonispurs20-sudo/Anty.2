@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="pt-BR"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400&amp;family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={"darkMode":"class","theme":{"extend":{"colors":{"on-tertiary-fixed":"#001e2c","on-primary-container":"#613b00","on-error":"#690005","outline-variant":"#534434","on-tertiary-fixed-variant":"#004c69","primary-container":"#f59e0b","secondary-fixed":"#ffdada","inverse-primary":"#855300","on-surface-variant":"#d8c3ad","inverse-on-surface":"#2e3037","surface-bright":"#373940","on-error-container":"#ffdad6","on-secondary-container":"#ffdcdc","error-container":"#93000a","primary-fixed":"#ffddb8","on-tertiary-container":"#004965","secondary":"#ffb3b6","secondary-fixed-dim":"#ffb3b6","secondary-container":"#cc003c","on-primary":"#472a00","error":"#ffb4ab","surface-container-lowest":"#0c0e14","surface-variant":"#33343b","surface-container-highest":"#33343b","on-secondary-fixed-variant":"#920028","on-primary-fixed":"#2a1700","surface":"#111319","tertiary":"#8ed5ff","tertiary-fixed":"#c4e7ff","surface-tint":"#ffb95f","surface-dim":"#111319","on-secondary-fixed":"#40000c","inverse-surface":"#e2e2eb","surface-container-high":"#282a30","on-tertiary":"#00354a","on-secondary":"#68001a","on-surface":"#e2e2eb","outline":"#a08e7a","on-primary-fixed-variant":"#653e00","on-background":"#e2e2eb","tertiary-fixed-dim":"#7bd0ff","surface-container":"#1e1f26","tertiary-container":"#38bdf8","primary-fixed-dim":"#ffb95f","surface-container-low":"#191b22","background":"#111319","primary":"#ffc174"},"borderRadius":{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},"spacing":{"space-md":"1rem","space-lg":"1.5rem","margin":"2rem","gutter":"1.5rem","space-xl":"2.5rem","gutter-mobile":"0.75rem","margin-mobile":"1rem","space-sm":"0.5rem","space-xs":"0.25rem"},"fontFamily":{"body-sm":["Plus Jakarta Sans"],"body-md":["Plus Jakarta Sans"],"label-sm":["Plus Jakarta Sans"],"headline-lg-mobile":["Playfair Display"],"display-lg":["Playfair Display"],"headline-md":["Playfair Display"],"label-md":["Plus Jakarta Sans"],"body-lg":["Plus Jakarta Sans"],"display-lg-mobile":["Playfair Display"],"headline-sm":["Playfair Display"],"headline-lg":["Playfair Display"],"title-lg":["Plus Jakarta Sans"],"title-md":["Plus Jakarta Sans"]},"fontSize":{"body-sm":["12px",{"lineHeight":"18px","fontWeight":"400"}],"body-md":["14px",{"lineHeight":"22px","fontWeight":"400"}],"label-sm":["10px",{"lineHeight":"14px","letterSpacing":"0.06em","fontWeight":"700"}],"headline-lg-mobile":["24px",{"lineHeight":"32px","fontWeight":"600"}],"display-lg":["48px",{"lineHeight":"56px","letterSpacing":"-0.02em","fontWeight":"700"}],"headline-md":["24px",{"lineHeight":"32px","fontWeight":"600"}],"label-md":["12px",{"lineHeight":"16px","letterSpacing":"0.04em","fontWeight":"600"}],"body-lg":["16px",{"lineHeight":"26px","fontWeight":"400"}],"display-lg-mobile":["32px",{"lineHeight":"40px","letterSpacing":"-0.01em","fontWeight":"700"}],"headline-sm":["20px",{"lineHeight":"28px","fontWeight":"500"}],"headline-lg":["32px",{"lineHeight":"40px","letterSpacing":"-0.01em","fontWeight":"600"}],"title-lg":["18px",{"lineHeight":"26px","fontWeight":"600"}],"title-md":["16px",{"lineHeight":"24px","fontWeight":"600"}]}}}}</script></head><body class="bg-surface font-body-md text-on-surface min-h-screen flex flex-col selection:bg-primary-container selection:text-on-primary-container"><header class="fixed top-0 inset-x-0 z-50 bg-surface/85 backdrop-blur-md shadow-[0_10px_30px_-10px_rgba(0,0,0,0.7)]"><div class="h-20 max-w-7xl mx-auto px-margin flex items-center justify-between gap-gutter"><div class="flex items-center gap-space-md shrink-0"><img alt="Movie0 Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1UPWCA9AsTXUYI2dErqVYE-_opDLTuwMzyh5YnYl0gHku53DjLvhlQsmQ3wRZiLkKJdeuILvssiR99Ca453ZADKNdVCmWEeH1wnuDJDwUgImOPX4r_hRNjz8pBAm9ARHemmPxUVSZWfOO2qdYhfuLa0nvey62-7pUq7fsczRRTbt5X7hyi3mIYCW481lP218ARGRjjsgstExqOicRkJa-xWXrUlQ9Jp7GldW3owrJ-K3UihKQ29JKXpTFE"/><a class="font-headline-sm text-headline-sm tracking-tight text-on-surface flex items-center gap-space-xs hover:text-primary transition-colors" data-path="home-diario" href="#"><span>Movie<span class="text-primary">0</span></span></a></div><nav class="hidden lg:flex items-center gap-space-xs p-space-xs bg-surface-container-lowest/60 rounded-xl" data-active-classes="bg-surface-container-high text-primary font-bold rounded-lg shadow-[0_0_12px_rgba(245,158,11,0.1)]"><a class="px-space-md py-space-sm text-on-surface-variant hover:text-on-surface font-label-md text-label-md rounded-lg transition-colors" data-path="home-diario" href="#">Home / Diário</a><a class="px-space-md py-space-sm text-on-surface-variant hover:text-on-surface font-label-md text-label-md rounded-lg transition-colors" data-path="explorar-busca-tmdb" href="#">Explorar &amp; Busca TMDB</a><a class="px-space-md py-space-sm text-on-surface-variant hover:text-on-surface font-label-md text-label-md rounded-lg transition-colors" data-path="estatisticas-perfil" href="#">Estatísticas &amp; Perfil</a></nav><div class="flex items-center gap-space-md shrink-0"><div class="relative hidden sm:flex items-center"><button class="flex items-center gap-space-sm bg-surface-container-low hover:bg-surface-container px-space-md py-space-xs rounded-full text-on-surface-variant hover:text-on-surface transition-all shadow-[0_2px_8px_rgba(0,0,0,0.4)]" type="button"><span class="material-symbols-outlined text-primary text-[18px]">search</span><span class="font-body-sm text-body-sm pr-space-md">Buscar filmes, diretores...</span><kbd class="px-space-xs py-0.5 bg-surface-container-highest rounded text-on-surface-variant font-label-sm text-label-sm">⌘K</kbd></button></div><button class="flex items-center gap-space-xs bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-label-md font-bold px-space-md py-space-sm rounded-lg shadow-[0_0_20px_rgba(245,158,11,0.25)] hover:shadow-[0_0_25px_rgba(245,158,11,0.45)] transition-all cursor-pointer" type="button"><span class="material-symbols-outlined text-[18px]">add</span><span class="hidden md:inline">Registrar Filme</span></button><div class="relative flex items-center gap-space-xs pl-space-xs"><img alt="Profile" class="w-8 h-8 rounded-full object-cover shadow-[0_0_0_2px_rgba(245,158,11,0.2)]" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB1kTzT6PtnM4MGGSxidG0eTYjDpgZfU2lHZtlSpTtSbONi5xti7xS2Ih0zDtgLGTqMwX76ekgefFQlOonjPtBEdkmXfWbLGkPUoFhUO8ZuZVGVeT4rN1Wv0un4eC2VDu9P7dcKgaj0Q8xnU-KfjJDoNZ7fxzsseioGwgOvjNkyi9cg20IWKdCP8bfxcb2osFEaQ_Yk8LwrgI1wPhEnx2a0d2A6_gflVfxe6wK8h5mW1YAhDRBjwMxT"/><span class="material-symbols-outlined text-on-surface-variant text-[18px] cursor-pointer hover:text-on-surface transition-colors hidden sm:block">expand_more</span></div></div></div></header><main class="w-full max-w-7xl mx-auto px-margin pt-20 flex-1 bg-surface"><div class="flex flex-col w-full pb-space-xl">
+<!-- Backdrop Glow Glow Ambient Light -->
+<div class="relative w-full overflow-hidden">
+<div class="absolute -top-32 left-1/2 -translate-x-1/2 w-[700px] h-72 bg-gradient-to-b from-primary/10 via-primary-container/5 to-transparent blur-3xl pointer-events-none rounded-full"></div>
+<!-- Search Terminal Header -->
+<div class="relative z-10 pt-space-lg pb-space-md flex flex-col items-center">
+<!-- API Status Pill & Metatag -->
+<div class="flex items-center gap-space-sm mb-space-sm">
+<span class="inline-flex items-center gap-1.5 px-space-sm py-0.5 rounded-full bg-surface-container-high text-on-surface-variant font-label-sm text-label-sm uppercase tracking-wider shadow-sm">
+<span class="inline-block w-2 h-2 rounded-full bg-emerald-400 shadow-[0_0_8px_rgba(52,211,153,0.8)]"></span>
+          TMDB API Live • v3 Gateway
+        </span>
+<span class="text-outline text-label-sm font-label-sm hidden sm:inline">Latência: 42ms • 820.000+ Títulos</span>
+</div>
+<!-- Main Search Input Bar with Tactile Marquee Accent -->
+<div class="w-full max-w-3xl relative px-space-xs">
+<div class="relative flex items-center bg-surface-container-low hover:bg-surface-container focus-within:bg-surface-container rounded-xl shadow-[0_12px_36px_rgba(0,0,0,0.6)] transition-all">
+<div class="pl-space-md pr-space-sm flex items-center text-primary">
+<span class="material-symbols-outlined text-[26px]">search</span>
+</div>
+<input class="w-full py-4 pr-24 bg-transparent font-title-md text-title-md text-on-surface placeholder:text-outline focus:outline-none" id="tmdbSearchInput" placeholder="Buscar filme por título, diretor ou ator na API do TMDB..." type="text" value="Denis Villeneuve"/>
+<!-- Quick Action Buttons Inside Input -->
+<div class="absolute right-3 flex items-center gap-space-xs">
+<button class="px-space-xs py-1 rounded bg-surface-container-high hover:bg-surface-container-highest text-on-surface-variant hover:text-on-surface font-label-sm text-label-sm transition-colors flex items-center gap-1" id="clearSearchBtn" title="Limpar termo de busca" type="button">
+<span>ESC</span>
+<span class="material-symbols-outlined text-[14px]">close</span>
+</button>
+</div>
+</div>
+<!-- Direct Live Query Prompt Info -->
+<div class="flex items-center justify-between mt-space-xs px-space-sm text-outline font-body-sm text-body-sm">
+<span class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px] text-primary">auto_awesome</span>
+            Filtrando filmografia autorada por <strong class="text-on-surface font-title-sm">"Denis Villeneuve"</strong> (Diretor)
+          </span>
+<span class="hidden md:inline font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant">8 Obras Identificadas</span>
+</div>
+</div>
+<!-- Filter Controls Strip -->
+<div class="w-full max-w-5xl mt-space-md flex flex-wrap items-center justify-between gap-space-sm bg-surface-container-lowest/80 p-space-sm rounded-xl">
+<div class="flex flex-wrap items-center gap-space-xs">
+<span class="font-label-sm text-label-sm text-outline uppercase tracking-wider px-space-xs">Gênero:</span>
+<button class="px-space-sm py-1 rounded-lg bg-surface-container-high text-primary font-label-md text-label-md shadow-sm">Todos</button>
+<button class="px-space-sm py-1 rounded-lg bg-surface-container-low hover:bg-surface-container text-on-surface-variant hover:text-on-surface font-label-md text-label-md transition-colors">Sci-Fi (4)</button>
+<button class="px-space-sm py-1 rounded-lg bg-surface-container-low hover:bg-surface-container text-on-surface-variant hover:text-on-surface font-label-md text-label-md transition-colors">Drama (6)</button>
+<button class="px-space-sm py-1 rounded-lg bg-surface-container-low hover:bg-surface-container text-on-surface-variant hover:text-on-surface font-label-md text-label-md transition-colors">Thriller (5)</button>
+<button class="px-space-sm py-1 rounded-lg bg-surface-container-low hover:bg-surface-container text-on-surface-variant hover:text-on-surface font-label-md text-label-md transition-colors">Mistério (3)</button>
+</div>
+<div class="flex items-center gap-space-sm ml-auto">
+<!-- User Status Filter -->
+<div class="flex items-center bg-surface-container-low rounded-lg p-0.5">
+<button class="px-space-sm py-1 rounded-lg bg-surface-container-high text-on-surface font-label-sm text-label-sm">Todas</button>
+<button class="px-space-sm py-1 rounded-lg hover:text-on-surface text-on-surface-variant font-label-sm text-label-sm transition-colors flex items-center gap-1">
+<span class="w-1.5 h-1.5 rounded-full bg-primary"></span> No Diário
+            </button>
+<button class="px-space-sm py-1 rounded-lg hover:text-on-surface text-on-surface-variant font-label-sm text-label-sm transition-colors">Não Avaliados</button>
+</div>
+<!-- Sort Order Dropdown Pill -->
+<div class="relative">
+<button class="flex items-center gap-1 px-space-sm py-1 rounded-lg bg-surface-container-low text-on-surface-variant hover:text-on-surface font-label-sm text-label-sm transition-colors">
+<span class="material-symbols-outlined text-[16px]">sort</span>
+<span>Relevância TMDB</span>
+<span class="material-symbols-outlined text-[14px]">expand_more</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Main Content Stage: Catalog Results & Aside Insight -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter mt-space-md items-start">
+<!-- Primary Results Stream (8 Columns on Large Viewports) -->
+<div class="lg:col-span-9 flex flex-col gap-space-md">
+<!-- View Density & Count Info -->
+<div class="flex items-center justify-between px-space-xs">
+<h2 class="font-headline-sm text-headline-sm text-on-surface flex items-center gap-space-xs">
+<span>Resultados Oficiais</span>
+<span class="px-space-xs py-0.5 rounded bg-surface-container-high text-primary font-label-sm text-label-sm">TMDB ID #137427</span>
+</h2>
+<div class="flex items-center gap-space-xs text-on-surface-variant font-label-sm text-label-sm">
+<span>Exibindo 8 de 14 títulos</span>
+<span class="text-outline">•</span>
+<span class="text-primary font-semibold">Ordem por Impacto Crítico</span>
+</div>
+</div>
+<!-- Results Grid: Responsive Mixed Density -->
+<div class="flex flex-col gap-space-md">
+<!-- Result Item 1: Duna: Parte 2 (Logged with 5 Stars) -->
+<article class="group relative flex flex-col sm:flex-row bg-surface-container-low hover:bg-surface-container rounded-xl overflow-hidden shadow-[0_8px_24px_rgba(0,0,0,0.5)] transition-all cursor-pointer">
+<!-- 2:3 Movie Poster Box -->
+<div class="relative w-full sm:w-44 shrink-0 aspect-[2/3] overflow-hidden bg-surface-container-highest">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Cinematic movie poster for Dune Part Two directed by Denis Villeneuve featuring desert warriors in stilgar suits under a blinding double sun with deep golden sand dunes, dramatic sci-fi photography, high contrast moody amber tones" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBm7WpsheNjoJx3hthBpG_JvKzPke0Rq8mrt5wi8bGT8rsYAfKg7mHtGUIMBt_7lTWo7baKpdyTyCR7uKE_5EUu8VDUdPwvx7MYzlzjwt8vahq76wzRiTg8_d0YnNbG8dF4rhpMP7gTbs2PF0PCbWMyJMVBHos44gn6t9B8h_I9J0tzU6cLn-aSFxoEqn5n3UShFG3dNIjRBbLVltMIxoX_5P_M0DgRyCplRq1-gaw8jguOYMHVPFpK"/>
+<!-- TMDB Score Overlay -->
+<div class="absolute top-2 left-2 flex items-center gap-1 bg-surface-container-lowest/90 backdrop-blur-md px-2 py-0.5 rounded text-on-surface font-label-md text-label-md shadow-md">
+<span class="material-symbols-outlined text-[14px] text-primary" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-bold text-primary">8.5</span>
+<span class="text-outline text-label-sm font-normal">/10</span>
+</div>
+<!-- Country Flag Code -->
+<div class="absolute bottom-2 left-2 bg-surface-container-lowest/90 px-1.5 py-0.5 rounded text-on-surface-variant font-label-sm text-label-sm uppercase">
+              US • 166m
+            </div>
+</div>
+<!-- Narrative & Metadata Column -->
+<div class="p-space-md flex-1 flex flex-col justify-between">
+<div>
+<div class="flex items-start justify-between gap-space-sm">
+<div>
+<div class="flex items-center gap-space-xs">
+<span class="font-label-sm text-label-sm px-1.5 py-0.5 rounded bg-surface-container-high text-tertiary-container uppercase tracking-wider">Ficção Científica • Aventura</span>
+<span class="text-outline font-label-sm text-label-sm">2024</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors mt-0.5">
+                    Duna: Parte 2
+                  </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">
+                    Dirigido por <span class="text-on-surface font-semibold">Denis Villeneuve</span> • Elenco: Timothée Chalamet, Zendaya, Rebecca Ferguson
+                  </p>
+</div>
+<!-- Quick Bookmark Watchlist Icon -->
+<button class="w-8 h-8 rounded-lg bg-surface-container hover:bg-surface-container-highest flex items-center justify-center text-on-surface-variant hover:text-primary transition-colors" title="Salvar na Watchlist" type="button">
+<span class="material-symbols-outlined text-[18px]">bookmark_add</span>
+</button>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant/90 mt-space-sm line-clamp-2">
+                Paul Atreides se une a Chani e aos Fremen enquanto busca vingança contra os conspiradores que destruíram sua família. Diante de uma escolha entre o amor de sua vida e o destino do universo, ele deve evitar um futuro terrível que só ele pode prever.
+              </p>
+</div>
+<!-- User Journal Status Footer (Logged State) -->
+<div class="mt-space-md pt-space-sm bg-surface-container-lowest/60 -mx-space-md -mb-space-md px-space-md py-space-sm flex flex-wrap items-center justify-between gap-space-sm">
+<div class="flex items-center gap-space-sm">
+<span class="inline-flex items-center gap-1 px-2 py-1 rounded bg-amber-500/10 text-primary font-label-md text-label-md">
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+<span>Já no Diário</span>
+</span>
+<div class="flex items-center gap-0.5 text-primary">
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star_half</span>
+<span class="font-label-md text-label-md font-bold ml-1 text-on-surface">4.5</span>
+</div>
+<span class="text-outline font-body-sm text-body-sm hidden sm:inline">• 04 Mar 2024 (IMAX 70mm)</span>
+</div>
+<button class="flex items-center gap-1 font-label-md text-label-md text-primary hover:text-primary-fixed underline transition-colors" type="button">
+<span>Ver Avaliação Crítica</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</button>
+</div>
+</div>
+</article>
+<!-- Result Item 2: Blade Runner 2049 (Logged) -->
+<article class="group relative flex flex-col sm:flex-row bg-surface-container-low hover:bg-surface-container rounded-xl overflow-hidden shadow-[0_8px_24px_rgba(0,0,0,0.5)] transition-all cursor-pointer">
+<div class="relative w-full sm:w-44 shrink-0 aspect-[2/3] overflow-hidden bg-surface-container-highest">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Atmospheric neon movie poster for Blade Runner 2049 showing a solitary trench-coat detective standing in an apocalyptic orange dust haze beside colossal eroded female sculptures, master cinematography cyberpunk aesthetic" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDXeMQUWYeGtOZxTZOGpyUmmJZKzguqLlpNkTz1zA1cPib-L2lvBF7QcJL5NQvuhtIHAv9Dgz5keMIEvMWxUnSj14YnPCiARPYZcJU_2FAnQtCvwyEh0RYXgmagwRo5WWmkKXY-mHGlaN8MBosnupTYV5_eNYum-7YqiM4T6Kp0O4gkMBGzzvhwCsqUbTuWtsLpmu_XvaGWs1J5_ExeTDBRnPvmI-XUNgoXvbakQgXGobIzPvLbjIUb"/>
+<div class="absolute top-2 left-2 flex items-center gap-1 bg-surface-container-lowest/90 backdrop-blur-md px-2 py-0.5 rounded text-on-surface font-label-md text-label-md shadow-md">
+<span class="material-symbols-outlined text-[14px] text-primary" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-bold text-primary">8.0</span>
+<span class="text-outline text-label-sm font-normal">/10</span>
+</div>
+<div class="absolute bottom-2 left-2 bg-surface-container-lowest/90 px-1.5 py-0.5 rounded text-on-surface-variant font-label-sm text-label-sm uppercase">
+              US • 164m
+            </div>
+</div>
+<div class="p-space-md flex-1 flex flex-col justify-between">
+<div>
+<div class="flex items-start justify-between gap-space-sm">
+<div>
+<div class="flex items-center gap-space-xs">
+<span class="font-label-sm text-label-sm px-1.5 py-0.5 rounded bg-surface-container-high text-tertiary uppercase tracking-wider">Neo-Noir • Cyberpunk</span>
+<span class="text-outline font-label-sm text-label-sm">2017</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors mt-0.5">
+                    Blade Runner 2049
+                  </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">
+                    Dirigido por <span class="text-on-surface font-semibold">Denis Villeneuve</span> • Fotografia: Roger Deakins • Ryan Gosling, Harrison Ford
+                  </p>
+</div>
+<button class="w-8 h-8 rounded-lg bg-surface-container hover:bg-surface-container-highest flex items-center justify-center text-on-surface-variant hover:text-primary transition-colors" title="Salvar na Watchlist" type="button">
+<span class="material-symbols-outlined text-[18px]">bookmark_add</span>
+</button>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant/90 mt-space-sm line-clamp-2">
+                Trinta anos após os acontecimentos do primeiro filme, um novo Blade Runner descobre um segredo enterrado há muito tempo que tem o potencial de mergulhar a sociedade no caos absoluto.
+              </p>
+</div>
+<div class="mt-space-md pt-space-sm bg-surface-container-lowest/60 -mx-space-md -mb-space-md px-space-md py-space-sm flex flex-wrap items-center justify-between gap-space-sm">
+<div class="flex items-center gap-space-sm">
+<span class="inline-flex items-center gap-1 px-2 py-1 rounded bg-amber-500/10 text-primary font-label-md text-label-md">
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+<span>Já no Diário</span>
+</span>
+<div class="flex items-center gap-0.5 text-primary">
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-label-md text-label-md font-bold ml-1 text-on-surface">5.0</span>
+</div>
+<span class="text-outline font-body-sm text-body-sm hidden sm:inline">• 12 Nov 2023 (Masterpiece)</span>
+</div>
+<button class="flex items-center gap-1 font-label-md text-label-md text-primary hover:text-primary-fixed underline transition-colors" type="button">
+<span>Ver Análise e Notas</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</button>
+</div>
+</div>
+</article>
+<!-- Result Item 3: A Chegada (Arrival) - NOT LOGGED -->
+<article class="group relative flex flex-col sm:flex-row bg-surface-container-low hover:bg-surface-container rounded-xl overflow-hidden shadow-[0_8px_24px_rgba(0,0,0,0.5)] transition-all cursor-pointer">
+<div class="relative w-full sm:w-44 shrink-0 aspect-[2/3] overflow-hidden bg-surface-container-highest">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Mysterious minimalist sci-fi poster for the movie Arrival showing a colossal curved black alien monolith hovering silently over a misty green Montana valley, atmospheric foggy lighting, cinema style" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDYi7Ihi7TmCuuoHN6zCrxwDWntnPdrlktVOQCS2BtLjXv8i8FSPv4KbYorICgHphWbwgypKdu6ZV4gAJNb4xnBB4zdct2cDDXcB26oZxbeE6Wq3sb3HiGFfxmozjbeEG3pWqzP_HTdMSOuKtcpyadJvyAmSAb3WXZ_M32YwSJ-XrpJHDJvZeHwmrVcv7keaFDlhG1JDlKLqokJD6cI-BYVji6lo1mBuvZmdyIRa-kMdW6tGbeekSYu"/>
+<div class="absolute top-2 left-2 flex items-center gap-1 bg-surface-container-lowest/90 backdrop-blur-md px-2 py-0.5 rounded text-on-surface font-label-md text-label-md shadow-md">
+<span class="material-symbols-outlined text-[14px] text-primary" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-bold text-primary">7.9</span>
+<span class="text-outline text-label-sm font-normal">/10</span>
+</div>
+<div class="absolute bottom-2 left-2 bg-surface-container-lowest/90 px-1.5 py-0.5 rounded text-on-surface-variant font-label-sm text-label-sm uppercase">
+              US • 116m
+            </div>
+</div>
+<div class="p-space-md flex-1 flex flex-col justify-between">
+<div>
+<div class="flex items-start justify-between gap-space-sm">
+<div>
+<div class="flex items-center gap-space-xs">
+<span class="font-label-sm text-label-sm px-1.5 py-0.5 rounded bg-surface-container-high text-on-surface-variant uppercase tracking-wider">Sci-Fi • Mistério • Drama</span>
+<span class="text-outline font-label-sm text-label-sm">2016</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors mt-0.5">
+                    A Chegada (Arrival)
+                  </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">
+                    Dirigido por <span class="text-on-surface font-semibold">Denis Villeneuve</span> • Amy Adams, Jeremy Renner, Forest Whitaker
+                  </p>
+</div>
+<button class="w-8 h-8 rounded-lg bg-surface-container hover:bg-surface-container-highest flex items-center justify-center text-on-surface-variant hover:text-primary transition-colors" title="Salvar na Watchlist" type="button">
+<span class="material-symbols-outlined text-[18px]">bookmark_add</span>
+</button>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant/90 mt-space-sm line-clamp-2">
+                Naves alienígenas misteriosas aterrissam ao redor do mundo. Para tentar se comunicar com os visitantes, os militares convocam uma linguista experiente que desvenda um enigma temporal e filosófico.
+              </p>
+</div>
+<!-- Call to Action: Not logged yet -->
+<div class="mt-space-md pt-space-sm bg-surface-container-lowest/40 -mx-space-md -mb-space-md px-space-md py-space-sm flex flex-wrap items-center justify-between gap-space-sm">
+<span class="font-label-sm text-label-sm text-outline flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px]">visibility_off</span>
+                Ainda não registrado no seu acervo
+              </span>
+<div class="flex items-center gap-space-xs">
+<button class="px-space-md py-1.5 rounded-lg bg-surface-container-high hover:bg-surface-container-highest text-on-surface font-label-md text-label-md transition-colors flex items-center gap-1" type="button">
+<span class="material-symbols-outlined text-[16px]">bookmark</span>
+<span>Watchlist</span>
+</button>
+<button class="px-space-md py-1.5 rounded-lg bg-primary text-on-primary font-bold font-label-md text-label-md shadow-[0_0_16px_rgba(245,158,11,0.25)] hover:shadow-[0_0_22px_rgba(245,158,11,0.45)] transition-all flex items-center gap-1" type="button">
+<span class="material-symbols-outlined text-[16px]">add_circle</span>
+<span>+ Registrar no Diário</span>
+</button>
+</div>
+</div>
+</div>
+</article>
+<!-- Result Item 4: Sicario: Terra de Ninguém - NOT LOGGED -->
+<article class="group relative flex flex-col sm:flex-row bg-surface-container-low hover:bg-surface-container rounded-xl overflow-hidden shadow-[0_8px_24px_rgba(0,0,0,0.5)] transition-all cursor-pointer">
+<div class="relative w-full sm:w-44 shrink-0 aspect-[2/3] overflow-hidden bg-surface-container-highest">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Gritty cinematic movie poster for Sicario directed by Denis Villeneuve featuring tactical federal agents in ballistic gear walking against a stark blinding Mexican desert border sunset, intense hyper-realistic tension" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCQdDk7039RaeJ-HC6N1c2OczeIBVC6vC0bFrmwFQpXdcUhB59Fb6aykQQ3hYzS2_ZIC656xPZouMo5bNW-8abxd5RHpZVkmZUngggo_YvU1RWHuasmpZrJgTxf5fliGMfNsnm2YhYoG5yzVw_zjzPzEKc-DnCmHw9W3XWRdE_oaqCKsNWCJKAqAg6S0mT7AJI5j264emJ9mZ1gcrONDrcYRvu3zdna4IgydEs-6sIGnpK2svXmUG1m"/>
+<div class="absolute top-2 left-2 flex items-center gap-1 bg-surface-container-lowest/90 backdrop-blur-md px-2 py-0.5 rounded text-on-surface font-label-md text-label-md shadow-md">
+<span class="material-symbols-outlined text-[14px] text-primary" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-bold text-primary">7.6</span>
+<span class="text-outline text-label-sm font-normal">/10</span>
+</div>
+<div class="absolute bottom-2 left-2 bg-surface-container-lowest/90 px-1.5 py-0.5 rounded text-on-surface-variant font-label-sm text-label-sm uppercase">
+              US • 121m
+            </div>
+</div>
+<div class="p-space-md flex-1 flex flex-col justify-between">
+<div>
+<div class="flex items-start justify-between gap-space-sm">
+<div>
+<div class="flex items-center gap-space-xs">
+<span class="font-label-sm text-label-sm px-1.5 py-0.5 rounded bg-surface-container-high text-secondary uppercase tracking-wider">Policial • Suspense Crudo</span>
+<span class="text-outline font-label-sm text-label-sm">2015</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors mt-0.5">
+                    Sicario: Terra de Ninguém
+                  </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">
+                    Dirigido por <span class="text-on-surface font-semibold">Denis Villeneuve</span> • Emily Blunt, Benicio del Toro, Josh Brolin
+                  </p>
+</div>
+<button class="w-8 h-8 rounded-lg bg-surface-container hover:bg-surface-container-highest flex items-center justify-center text-on-surface-variant hover:text-primary transition-colors" title="Salvar na Watchlist" type="button">
+<span class="material-symbols-outlined text-[18px]">bookmark_add</span>
+</button>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant/90 mt-space-sm line-clamp-2">
+                Uma agente idealista do FBI é recrutada por uma força-tarefa governamental para auxiliar na crescente guerra contra o narcotráfico na fronteira sem lei entre os Estados Unidos e o México.
+              </p>
+</div>
+<!-- Call to Action: Not logged yet -->
+<div class="mt-space-md pt-space-sm bg-surface-container-lowest/40 -mx-space-md -mb-space-md px-space-md py-space-sm flex flex-wrap items-center justify-between gap-space-sm">
+<span class="font-label-sm text-label-sm text-outline flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px]">visibility_off</span>
+                Ainda não registrado no seu acervo
+              </span>
+<div class="flex items-center gap-space-xs">
+<button class="px-space-md py-1.5 rounded-lg bg-surface-container-high hover:bg-surface-container-highest text-on-surface font-label-md text-label-md transition-colors flex items-center gap-1" type="button">
+<span class="material-symbols-outlined text-[16px]">bookmark</span>
+<span>Watchlist</span>
+</button>
+<button class="px-space-md py-1.5 rounded-lg bg-primary text-on-primary font-bold font-label-md text-label-md shadow-[0_0_16px_rgba(245,158,11,0.25)] hover:shadow-[0_0_22px_rgba(245,158,11,0.45)] transition-all flex items-center gap-1" type="button">
+<span class="material-symbols-outlined text-[16px]">add_circle</span>
+<span>+ Registrar no Diário</span>
+</button>
+</div>
+</div>
+</div>
+</article>
+<!-- Result Item 5: Incêndios (Incendies) - LOGGED -->
+<article class="group relative flex flex-col sm:flex-row bg-surface-container-low hover:bg-surface-container rounded-xl overflow-hidden shadow-[0_8px_24px_rgba(0,0,0,0.5)] transition-all cursor-pointer">
+<div class="relative w-full sm:w-44 shrink-0 aspect-[2/3] overflow-hidden bg-surface-container-highest">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Editorial movie poster for Incendies directed by Denis Villeneuve depicting a solemn young woman looking out from behind a barbed wire gate under scorching Middle Eastern desert sky, emotional film grain photography" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAvbysOPIXHS8f2OuiA6RYuoFIPN8FQNKN8AqUDmpxgvz1Pdx4467cxig-AJ1wDja4EDG64ib2dwdxSIi5MxxJxnbSMM8Jj5IyLyxjSATpXgNerqWZYIn7xf2dXZM4XUdROxBRlTckxm92FH0URDig9Zx083Hh99SySSw2CNH0ry8Vy0MG0K1dq2Pi_OxTQ0Z7kPR62AtNscTyzRNWbYhP_btSM9n5e5Shelk7Bvs3BpfPb0nixEZfS"/>
+<div class="absolute top-2 left-2 flex items-center gap-1 bg-surface-container-lowest/90 backdrop-blur-md px-2 py-0.5 rounded text-on-surface font-label-md text-label-md shadow-md">
+<span class="material-symbols-outlined text-[14px] text-primary" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-bold text-primary">8.2</span>
+<span class="text-outline text-label-sm font-normal">/10</span>
+</div>
+<div class="absolute bottom-2 left-2 bg-surface-container-lowest/90 px-1.5 py-0.5 rounded text-on-surface-variant font-label-sm text-label-sm uppercase">
+              CA • 131m
+            </div>
+</div>
+<div class="p-space-md flex-1 flex flex-col justify-between">
+<div>
+<div class="flex items-start justify-between gap-space-sm">
+<div>
+<div class="flex items-center gap-space-xs">
+<span class="font-label-sm text-label-sm px-1.5 py-0.5 rounded bg-surface-container-high text-secondary-fixed-dim uppercase tracking-wider">Tragédia • Drama Histórico</span>
+<span class="text-outline font-label-sm text-label-sm">2010</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors mt-0.5">
+                    Incêndios (Incendies)
+                  </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">
+                    Dirigido por <span class="text-on-surface font-semibold">Denis Villeneuve</span> • Lubna Azabal, Mélissa Désormeaux-Poulin
+                  </p>
+</div>
+<button class="w-8 h-8 rounded-lg bg-surface-container hover:bg-surface-container-highest flex items-center justify-center text-on-surface-variant hover:text-primary transition-colors" title="Salvar na Watchlist" type="button">
+<span class="material-symbols-outlined text-[18px]">bookmark_add</span>
+</button>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant/90 mt-space-sm line-clamp-2">
+                Irmãos gêmeos viajam ao Oriente Médio para descobrir suas raízes familiares e cumprir os últimos desejos de sua falecida mãe, desenterrando segredos devastadores do passado.
+              </p>
+</div>
+<div class="mt-space-md pt-space-sm bg-surface-container-lowest/60 -mx-space-md -mb-space-md px-space-md py-space-sm flex flex-wrap items-center justify-between gap-space-sm">
+<div class="flex items-center gap-space-sm">
+<span class="inline-flex items-center gap-1 px-2 py-1 rounded bg-amber-500/10 text-primary font-label-md text-label-md">
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+<span>Já no Diário</span>
+</span>
+<div class="flex items-center gap-0.5 text-primary">
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-label-md text-label-md font-bold ml-1 text-on-surface">5.0</span>
+</div>
+<span class="text-outline font-body-sm text-body-sm hidden sm:inline">• 18 Ago 2022</span>
+</div>
+<button class="flex items-center gap-1 font-label-md text-label-md text-primary hover:text-primary-fixed underline transition-colors" type="button">
+<span>Ver Crítica Completa</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</button>
+</div>
+</div>
+</article>
+<!-- Result Item 6: Os Suspeitos (Prisoners) - NOT LOGGED -->
+<article class="group relative flex flex-col sm:flex-row bg-surface-container-low hover:bg-surface-container rounded-xl overflow-hidden shadow-[0_8px_24px_rgba(0,0,0,0.5)] transition-all cursor-pointer">
+<div class="relative w-full sm:w-44 shrink-0 aspect-[2/3] overflow-hidden bg-surface-container-highest">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Intense thriller movie poster for Prisoners by Denis Villeneuve featuring a rain-streaked car windshield overlooking an ominous suburban Pennsylvania street at twilight, dark charcoal and cold amber highlights" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB95qUU3z3qyY1DzLvBJaGXTWDfWv-uTBsnjx5CvBukRL01BEHOlpYYcl-4A4D4dvKej4ucnGbckIWM2TVTDwq84T-jguBrgyiGaKeUkg28x7k7PS5f_-KteBCF576US62HSNt69L3gZ1TzmXKGwRr-LxtHILWYWbNFVhAkFgzbxsiaxyO0vD7eKhk2bsvrLbs1x_O6bbuJnBbYFs7xlO5-HDFELfYrgoHWgL8r9-4YiH0G9WQ-7y7K"/>
+<div class="absolute top-2 left-2 flex items-center gap-1 bg-surface-container-lowest/90 backdrop-blur-md px-2 py-0.5 rounded text-on-surface font-label-md text-label-md shadow-md">
+<span class="material-symbols-outlined text-[14px] text-primary" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-bold text-primary">8.1</span>
+<span class="text-outline text-label-sm font-normal">/10</span>
+</div>
+<div class="absolute bottom-2 left-2 bg-surface-container-lowest/90 px-1.5 py-0.5 rounded text-on-surface-variant font-label-sm text-label-sm uppercase">
+              US • 153m
+            </div>
+</div>
+<div class="p-space-md flex-1 flex flex-col justify-between">
+<div>
+<div class="flex items-start justify-between gap-space-sm">
+<div>
+<div class="flex items-center gap-space-xs">
+<span class="font-label-sm text-label-sm px-1.5 py-0.5 rounded bg-surface-container-high text-on-surface-variant uppercase tracking-wider">Mistério • Thriller Psicológico</span>
+<span class="text-outline font-label-sm text-label-sm">2013</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors mt-0.5">
+                    Os Suspeitos (Prisoners)
+                  </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">
+                    Dirigido por <span class="text-on-surface font-semibold">Denis Villeneuve</span> • Hugh Jackman, Jake Gyllenhaal, Viola Davis
+                  </p>
+</div>
+<button class="w-8 h-8 rounded-lg bg-surface-container hover:bg-surface-container-highest flex items-center justify-center text-on-surface-variant hover:text-primary transition-colors" title="Salvar na Watchlist" type="button">
+<span class="material-symbols-outlined text-[18px]">bookmark_add</span>
+</button>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant/90 mt-space-sm line-clamp-2">
+                Quando a filha de Keller Dover e sua amiga desaparecem, ele decide fazer justiça com as próprias mãos enquanto a polícia, liderada pelo detetive Loki, persegue várias pistas incertas.
+              </p>
+</div>
+<div class="mt-space-md pt-space-sm bg-surface-container-lowest/40 -mx-space-md -mb-space-md px-space-md py-space-sm flex flex-wrap items-center justify-between gap-space-sm">
+<span class="font-label-sm text-label-sm text-outline flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px]">visibility_off</span>
+                Ainda não registrado no seu acervo
+              </span>
+<div class="flex items-center gap-space-xs">
+<button class="px-space-md py-1.5 rounded-lg bg-surface-container-high hover:bg-surface-container-highest text-on-surface font-label-md text-label-md transition-colors flex items-center gap-1" type="button">
+<span class="material-symbols-outlined text-[16px]">bookmark</span>
+<span>Watchlist</span>
+</button>
+<button class="px-space-md py-1.5 rounded-lg bg-primary text-on-primary font-bold font-label-md text-label-md shadow-[0_0_16px_rgba(245,158,11,0.25)] hover:shadow-[0_0_22px_rgba(245,158,11,0.45)] transition-all flex items-center gap-1" type="button">
+<span class="material-symbols-outlined text-[16px]">add_circle</span>
+<span>+ Registrar no Diário</span>
+</button>
+</div>
+</div>
+</div>
+</article>
+<!-- Result Item 7: O Homem Duplicado (Enemy) - LOGGED -->
+<article class="group relative flex flex-col sm:flex-row bg-surface-container-low hover:bg-surface-container rounded-xl overflow-hidden shadow-[0_8px_24px_rgba(0,0,0,0.5)] transition-all cursor-pointer">
+<div class="relative w-full sm:w-44 shrink-0 aspect-[2/3] overflow-hidden bg-surface-container-highest">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Surreal psychological thriller poster for Enemy directed by Denis Villeneuve featuring a sepia yellow-hued city skyline with a colossal shadowy tarantula suspended in the sky, cryptic and unsettling cinematic tone" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCDgX1Bh3wUOjfC701YhoKEPR0fBoq_YIhpIYaiH717vubJFisH0pPToGEuOkrBK7WFaZepKT0FXZC8qZiFClBhUcrTMB3Nzi_I3ZDHHrbKF5rWTd5tlDz8ucjX5eXnjIEG-x7qVvRxuh8Fyb05xREVtTRitPSk1zW29o3hTKtitB4dT_x6YaKrDSIV4_7ugsw20ZalUNiQud6xpxg6TmD0z9tf0wGEmvQRGcQltAnY0UsmBjdnP_ku"/>
+<div class="absolute top-2 left-2 flex items-center gap-1 bg-surface-container-lowest/90 backdrop-blur-md px-2 py-0.5 rounded text-on-surface font-label-md text-label-md shadow-md">
+<span class="material-symbols-outlined text-[14px] text-primary" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-bold text-primary">6.9</span>
+<span class="text-outline text-label-sm font-normal">/10</span>
+</div>
+<div class="absolute bottom-2 left-2 bg-surface-container-lowest/90 px-1.5 py-0.5 rounded text-on-surface-variant font-label-sm text-label-sm uppercase">
+              CA • 90m
+            </div>
+</div>
+<div class="p-space-md flex-1 flex flex-col justify-between">
+<div>
+<div class="flex items-start justify-between gap-space-sm">
+<div>
+<div class="flex items-center gap-space-xs">
+<span class="font-label-sm text-label-sm px-1.5 py-0.5 rounded bg-surface-container-high text-on-surface-variant uppercase tracking-wider">Mistério Surrealista</span>
+<span class="text-outline font-label-sm text-label-sm">2013</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors mt-0.5">
+                    O Homem Duplicado (Enemy)
+                  </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">
+                    Dirigido por <span class="text-on-surface font-semibold">Denis Villeneuve</span> • Baseado em José Saramago • Jake Gyllenhaal
+                  </p>
+</div>
+<button class="w-8 h-8 rounded-lg bg-surface-container hover:bg-surface-container-highest flex items-center justify-center text-on-surface-variant hover:text-primary transition-colors" title="Salvar na Watchlist" type="button">
+<span class="material-symbols-outlined text-[18px]">bookmark_add</span>
+</button>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant/90 mt-space-sm line-clamp-2">
+                Um professor de história desiludido descobre um sósia fisicamente idêntico em um filme alugado e fica obcecado em rastrear o homem, adentrando uma teia de ilusão psicológica e obsessão.
+              </p>
+</div>
+<div class="mt-space-md pt-space-sm bg-surface-container-lowest/60 -mx-space-md -mb-space-md px-space-md py-space-sm flex flex-wrap items-center justify-between gap-space-sm">
+<div class="flex items-center gap-space-sm">
+<span class="inline-flex items-center gap-1 px-2 py-1 rounded bg-amber-500/10 text-primary font-label-md text-label-md">
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+<span>Já no Diário</span>
+</span>
+<div class="flex items-center gap-0.5 text-primary">
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px] text-surface-variant">star</span>
+<span class="font-label-md text-label-md font-bold ml-1 text-on-surface">4.0</span>
+</div>
+<span class="text-outline font-body-sm text-body-sm hidden sm:inline">• 09 Jan 2023</span>
+</div>
+<button class="flex items-center gap-1 font-label-md text-label-md text-primary hover:text-primary-fixed underline transition-colors" type="button">
+<span>Ver Diário</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</button>
+</div>
+</div>
+</article>
+<!-- Result Item 8: Duna (Parte 1) - LOGGED -->
+<article class="group relative flex flex-col sm:flex-row bg-surface-container-low hover:bg-surface-container rounded-xl overflow-hidden shadow-[0_8px_24px_rgba(0,0,0,0.5)] transition-all cursor-pointer">
+<div class="relative w-full sm:w-44 shrink-0 aspect-[2/3] overflow-hidden bg-surface-container-highest">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Cinematic wide-scale movie poster for Dune Part One directed by Denis Villeneuve featuring giant spice harvester machines surrounded by towering swirling sandstorms on Arrakis, grand sci-fi scale" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBuRu23dPJ5zsL1yyVRuebn1wJIOwxNDgo_b__mMK7skUo6_Agyfbcu0mtYYzY7rQfQWt9EdwPhxK1DB5QzfsDhSoImvJilyR64Id2npVH7CSA9G3ikgY8Lt_8dCxKXN4Wg9OdBckuu7uwvoTvWI8Rjzq6P1IhVeTdkB17ArM9mmdEu2AIsc9PtOumW-st5za-UiLnSa7EzCHQeuNdmSJguHZeB9ueCg7NzO6IEyiCO739I0IrFEqlA"/>
+<div class="absolute top-2 left-2 flex items-center gap-1 bg-surface-container-lowest/90 backdrop-blur-md px-2 py-0.5 rounded text-on-surface font-label-md text-label-md shadow-md">
+<span class="material-symbols-outlined text-[14px] text-primary" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-bold text-primary">7.8</span>
+<span class="text-outline text-label-sm font-normal">/10</span>
+</div>
+<div class="absolute bottom-2 left-2 bg-surface-container-lowest/90 px-1.5 py-0.5 rounded text-on-surface-variant font-label-sm text-label-sm uppercase">
+              US • 155m
+            </div>
+</div>
+<div class="p-space-md flex-1 flex flex-col justify-between">
+<div>
+<div class="flex items-start justify-between gap-space-sm">
+<div>
+<div class="flex items-center gap-space-xs">
+<span class="font-label-sm text-label-sm px-1.5 py-0.5 rounded bg-surface-container-high text-tertiary-container uppercase tracking-wider">Sci-Fi Épico</span>
+<span class="text-outline font-label-sm text-label-sm">2021</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors mt-0.5">
+                    Duna (Dune)
+                  </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">
+                    Dirigido por <span class="text-on-surface font-semibold">Denis Villeneuve</span> • Trilha: Hans Zimmer • Oscar de Melhor Fotografia
+                  </p>
+</div>
+<button class="w-8 h-8 rounded-lg bg-surface-container hover:bg-surface-container-highest flex items-center justify-center text-on-surface-variant hover:text-primary transition-colors" title="Salvar na Watchlist" type="button">
+<span class="material-symbols-outlined text-[18px]">bookmark_add</span>
+</button>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant/90 mt-space-sm line-clamp-2">
+                O brilhante e talentoso jovem Paul Atreides deve viajar para o planeta mais perigoso do universo para garantir o futuro de sua família e de seu povo.
+              </p>
+</div>
+<div class="mt-space-md pt-space-sm bg-surface-container-lowest/60 -mx-space-md -mb-space-md px-space-md py-space-sm flex flex-wrap items-center justify-between gap-space-sm">
+<div class="flex items-center gap-space-sm">
+<span class="inline-flex items-center gap-1 px-2 py-1 rounded bg-amber-500/10 text-primary font-label-md text-label-md">
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+<span>Já no Diário</span>
+</span>
+<div class="flex items-center gap-0.5 text-primary">
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star_half</span>
+<span class="font-label-md text-label-md font-bold ml-1 text-on-surface">4.5</span>
+</div>
+<span class="text-outline font-body-sm text-body-sm hidden sm:inline">• 25 Out 2021</span>
+</div>
+<button class="flex items-center gap-1 font-label-md text-label-md text-primary hover:text-primary-fixed underline transition-colors" type="button">
+<span>Ver Detalhes do Log</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</button>
+</div>
+</div>
+</article>
+</div>
+<!-- Pagination / More Gateway Fetch -->
+<div class="flex items-center justify-between pt-space-md">
+<span class="font-body-sm text-body-sm text-on-surface-variant">Carregados 8 de 14 títulos vinculados a Denis Villeneuve</span>
+<button class="px-space-lg py-2.5 rounded-lg bg-surface-container-high hover:bg-surface-container-highest text-on-surface font-title-sm text-title-sm transition-all flex items-center gap-2" type="button">
+<span>Carregar Próximos Resultados</span>
+<span class="material-symbols-outlined text-[18px]">south</span>
+</button>
+</div>
+</div>
+<!-- Right Rail: TMDB Protocol Card & Quick Curatorial Stats (3 Columns) -->
+<aside class="lg:col-span-3 flex flex-col gap-space-md">
+<!-- Live Sync Protocol Informational Panel -->
+<div class="bg-surface-container-low rounded-xl p-space-md relative overflow-hidden shadow-lg">
+<div class="absolute top-0 right-0 w-32 h-32 bg-primary/5 rounded-full blur-2xl pointer-events-none"></div>
+<div class="flex items-center gap-space-xs text-primary mb-space-sm">
+<span class="material-symbols-outlined text-[22px]">database</span>
+<h4 class="font-title-md text-title-md text-on-surface">Motor TMDB em Tempo Real</h4>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+          Busca em tempo real conectada ao catálogo de mais de <strong class="text-on-surface">800.000 títulos</strong> do The Movie Database (TMDB). Metadados completos, posters em alta resolução e créditos oficiais de elenco e equipe técnica.
+        </p>
+<div class="mt-space-md pt-space-sm flex flex-col gap-2">
+<div class="flex items-center justify-between font-label-sm text-label-sm">
+<span class="text-outline">Taxa de Resposta</span>
+<span class="text-emerald-400 font-mono">38ms • Ótima</span>
+</div>
+<div class="flex items-center justify-between font-label-sm text-label-sm">
+<span class="text-outline">Língua Padrão</span>
+<span class="text-on-surface font-mono">pt-BR (Fallback en-US)</span>
+</div>
+<div class="flex items-center justify-between font-label-sm text-label-sm">
+<span class="text-outline">Poster Size</span>
+<span class="text-on-surface font-mono">w780 original</span>
+</div>
+</div>
+</div>
+<!-- Director Focus Dossier Spotlight -->
+<div class="bg-surface-container-low rounded-xl p-space-md shadow-lg">
+<div class="flex items-center gap-3">
+<img class="w-14 h-14 rounded-full object-cover shadow-[0_0_0_2px_rgba(245,158,11,0.3)]" data-alt="Black and white high contrast editorial portrait of film director Denis Villeneuve with thoughtful contemplative expression on a cinema soundstage, subtle film grain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDGw-cHV1MRVYyFSKsEKqvhTj0td9t8MgF29eF36-PBdxbn4xTdo2xPdx7MBpWhTvj4hdVBd6Ur_D2CTfJG41oHpOb1P92gNWEmpnmErPCMsVIlLElGYs6fBCsQeP2hhTCqFEMWpEEW6S7Gemya1KpOsc12-_xYSvn-U7l3N3KrUJThE9WLBcUWh3SId52yAGCkbPdVMbOD6Vn5kiyx539r9d1H9SqLc5Zo7FomdGxBqg9Ju0VtOmJd"/>
+<div>
+<span class="font-label-sm text-label-sm text-primary uppercase tracking-wider">Cineasta em Foco</span>
+<h4 class="font-title-lg text-title-lg text-on-surface">Denis Villeneuve</h4>
+<p class="font-body-sm text-body-sm text-outline">Canadá • 56 anos</p>
+</div>
+</div>
+<div class="grid grid-cols-2 gap-space-xs mt-space-md text-center">
+<div class="p-space-xs bg-surface-container rounded-lg">
+<div class="font-display-lg text-headline-sm text-primary">5</div>
+<div class="font-label-sm text-label-sm text-on-surface-variant">Assistidos no Diário</div>
+</div>
+<div class="p-space-xs bg-surface-container rounded-lg">
+<div class="font-display-lg text-headline-sm text-on-surface">4.6★</div>
+<div class="font-label-sm text-label-sm text-on-surface-variant">Sua Média Pessoal</div>
+</div>
+</div>
+<!-- Curatorial Affinity Progress Bar -->
+<div class="mt-space-md">
+<div class="flex items-center justify-between font-label-sm text-label-sm mb-1">
+<span class="text-on-surface-variant">Filmografia Completada</span>
+<span class="text-primary font-bold">62%</span>
+</div>
+<div class="w-full h-1.5 bg-surface-container-highest rounded-full overflow-hidden">
+<div class="h-full bg-gradient-to-r from-primary-container to-primary rounded-full" style="width: 62%"></div>
+</div>
+<p class="font-body-sm text-body-sm text-outline mt-space-xs text-center">Faltam 3 obras para completar a filmografia principal.</p>
+</div>
+</div>
+<!-- Quick Search Alternatives / Suggestion Cloud -->
+<div class="bg-surface-container-low rounded-xl p-space-md shadow-lg">
+<h5 class="font-label-sm text-label-sm uppercase tracking-wider text-outline mb-space-sm">Outras Buscas em Alta</h5>
+<div class="flex flex-wrap gap-1.5">
+<button class="px-2.5 py-1 rounded-md bg-surface-container hover:bg-surface-container-high text-on-surface-variant hover:text-primary font-label-sm text-label-sm transition-colors">
+            Christopher Nolan
+          </button>
+<button class="px-2.5 py-1 rounded-md bg-surface-container hover:bg-surface-container-high text-on-surface-variant hover:text-primary font-label-sm text-label-sm transition-colors">
+            Oppenheimer (2023)
+          </button>
+<button class="px-2.5 py-1 rounded-md bg-surface-container hover:bg-surface-container-high text-on-surface-variant hover:text-primary font-label-sm text-label-sm transition-colors">
+            David Fincher
+          </button>
+<button class="px-2.5 py-1 rounded-md bg-surface-container hover:bg-surface-container-high text-on-surface-variant hover:text-primary font-label-sm text-label-sm transition-colors">
+            Pobres Criaturas
+          </button>
+<button class="px-2.5 py-1 rounded-md bg-surface-container hover:bg-surface-container-high text-on-surface-variant hover:text-primary font-label-sm text-label-sm transition-colors">
+            Hayao Miyazaki
+          </button>
+<button class="px-2.5 py-1 rounded-md bg-surface-container hover:bg-surface-container-high text-on-surface-variant hover:text-primary font-label-sm text-label-sm transition-colors">
+            Anatomia de uma Queda
+          </button>
+</div>
+</div>
+</aside>
+</div>
+</div>
+<script>
+  // Simple interactive keyboard hook for Escape clearing and quick search response simulation
+  document.addEventListener('DOMContentLoaded', () => {
+    const searchInput = document.getElementById('tmdbSearchInput');
+    const clearBtn = document.getElementById('clearSearchBtn');
+
+    if (searchInput && clearBtn) {
+      clearBtn.addEventListener('click', () => {
+        searchInput.value = '';
+        searchInput.focus();
+      });
+
+      document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && document.activeElement === searchInput) {
+          searchInput.value = '';
+        }
+      });
+    }
+  });
+</script></main><footer class="w-full bg-surface-container-lowest mt-space-xl py-space-xl shadow-[0_-1px_12px_rgba(0,0,0,0.5)]"><div class="max-w-7xl mx-auto px-margin flex flex-col md:flex-row items-center justify-between gap-space-lg"><div class="flex flex-col items-center md:items-start gap-space-xs"><div class="flex items-center gap-space-xs font-headline-sm text-headline-sm text-on-surface"><span>Movie<span class="text-primary">0</span></span><span class="font-label-sm text-label-sm px-space-xs py-0.5 bg-surface-container-high rounded text-on-surface-variant uppercase tracking-wider">Cinephile Archive</span></div><p class="font-body-sm text-body-sm text-on-surface-variant text-center md:text-left">Diário e registro cinematográfico de alta precisão curatorial.</p></div><div class="flex flex-wrap items-center justify-center gap-space-md"><div class="flex items-center gap-space-xs px-space-md py-space-xs bg-surface-container-low rounded-lg"><span class="material-symbols-outlined text-primary text-[18px]">movie</span><span class="font-label-md text-label-md text-on-surface font-semibold">1.428</span><span class="font-body-sm text-body-sm text-on-surface-variant">filmes logados</span></div><div class="flex items-center gap-space-xs px-space-md py-space-xs bg-surface-container-low rounded-lg"><span class="material-symbols-outlined text-tertiary-container text-[18px]">schedule</span><span class="font-label-md text-label-md text-on-surface font-semibold">2.640h</span><span class="font-body-sm text-body-sm text-on-surface-variant">em tela</span></div><div class="flex items-center gap-space-xs px-space-md py-space-xs bg-surface-container-low rounded-lg"><span class="material-symbols-outlined text-secondary text-[18px]">favorite</span><span class="font-label-md text-label-md text-on-surface font-semibold">312</span><span class="font-body-sm text-body-sm text-on-surface-variant">favoritos</span></div></div><div class="flex flex-col items-center md:items-end gap-space-xs text-center md:text-right"><div class="flex items-center gap-space-sm font-label-sm text-label-sm text-on-surface-variant"><span class="material-symbols-outlined text-[16px] text-tertiary">data_object</span><span>Dados alimentados por TMDB API</span></div><p class="font-body-sm text-body-sm text-outline">© 2024 Movie0. Feito para obsessivos por cinema.</p></div></div></footer></body></html>

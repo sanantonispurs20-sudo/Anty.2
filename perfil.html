@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="pt-BR"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400&amp;family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={"darkMode":"class","theme":{"extend":{"colors":{"on-tertiary-fixed":"#001e2c","on-primary-container":"#613b00","on-error":"#690005","outline-variant":"#534434","on-tertiary-fixed-variant":"#004c69","primary-container":"#f59e0b","secondary-fixed":"#ffdada","inverse-primary":"#855300","on-surface-variant":"#d8c3ad","inverse-on-surface":"#2e3037","surface-bright":"#373940","on-error-container":"#ffdad6","on-secondary-container":"#ffdcdc","error-container":"#93000a","primary-fixed":"#ffddb8","on-tertiary-container":"#004965","secondary":"#ffb3b6","secondary-fixed-dim":"#ffb3b6","secondary-container":"#cc003c","on-primary":"#472a00","error":"#ffb4ab","surface-container-lowest":"#0c0e14","surface-variant":"#33343b","surface-container-highest":"#33343b","on-secondary-fixed-variant":"#920028","on-primary-fixed":"#2a1700","surface":"#111319","tertiary":"#8ed5ff","tertiary-fixed":"#c4e7ff","surface-tint":"#ffb95f","surface-dim":"#111319","on-secondary-fixed":"#40000c","inverse-surface":"#e2e2eb","surface-container-high":"#282a30","on-tertiary":"#00354a","on-secondary":"#68001a","on-surface":"#e2e2eb","outline":"#a08e7a","on-primary-fixed-variant":"#653e00","on-background":"#e2e2eb","tertiary-fixed-dim":"#7bd0ff","surface-container":"#1e1f26","tertiary-container":"#38bdf8","primary-fixed-dim":"#ffb95f","surface-container-low":"#191b22","background":"#111319","primary":"#ffc174"},"borderRadius":{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},"spacing":{"space-md":"1rem","space-lg":"1.5rem","margin":"2rem","gutter":"1.5rem","space-xl":"2.5rem","gutter-mobile":"0.75rem","margin-mobile":"1rem","space-sm":"0.5rem","space-xs":"0.25rem"},"fontFamily":{"body-sm":["Plus Jakarta Sans"],"body-md":["Plus Jakarta Sans"],"label-sm":["Plus Jakarta Sans"],"headline-lg-mobile":["Playfair Display"],"display-lg":["Playfair Display"],"headline-md":["Playfair Display"],"label-md":["Plus Jakarta Sans"],"body-lg":["Plus Jakarta Sans"],"display-lg-mobile":["Playfair Display"],"headline-sm":["Playfair Display"],"headline-lg":["Playfair Display"],"title-lg":["Plus Jakarta Sans"],"title-md":["Plus Jakarta Sans"]},"fontSize":{"body-sm":["12px",{"lineHeight":"18px","fontWeight":"400"}],"body-md":["14px",{"lineHeight":"22px","fontWeight":"400"}],"label-sm":["10px",{"lineHeight":"14px","letterSpacing":"0.06em","fontWeight":"700"}],"headline-lg-mobile":["24px",{"lineHeight":"32px","fontWeight":"600"}],"display-lg":["48px",{"lineHeight":"56px","letterSpacing":"-0.02em","fontWeight":"700"}],"headline-md":["24px",{"lineHeight":"32px","fontWeight":"600"}],"label-md":["12px",{"lineHeight":"16px","letterSpacing":"0.04em","fontWeight":"600"}],"body-lg":["16px",{"lineHeight":"26px","fontWeight":"400"}],"display-lg-mobile":["32px",{"lineHeight":"40px","letterSpacing":"-0.01em","fontWeight":"700"}],"headline-sm":["20px",{"lineHeight":"28px","fontWeight":"500"}],"headline-lg":["32px",{"lineHeight":"40px","letterSpacing":"-0.01em","fontWeight":"600"}],"title-lg":["18px",{"lineHeight":"26px","fontWeight":"600"}],"title-md":["16px",{"lineHeight":"24px","fontWeight":"600"}]}}}}</script></head><body class="bg-surface font-body-md text-on-surface min-h-screen flex flex-col selection:bg-primary-container selection:text-on-primary-container"><header class="fixed top-0 inset-x-0 z-50 bg-surface/85 backdrop-blur-md shadow-[0_10px_30px_-10px_rgba(0,0,0,0.7)]"><div class="h-20 max-w-7xl mx-auto px-margin flex items-center justify-between gap-gutter"><div class="flex items-center gap-space-md shrink-0"><img alt="Movie0 Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1UPWCA9AsTXUYI2dErqVYE-_opDLTuwMzyh5YnYl0gHku53DjLvhlQsmQ3wRZiLkKJdeuILvssiR99Ca453ZADKNdVCmWEeH1wnuDJDwUgImOPX4r_hRNjz8pBAm9ARHemmPxUVSZWfOO2qdYhfuLa0nvey62-7pUq7fsczRRTbt5X7hyi3mIYCW481lP218ARGRjjsgstExqOicRkJa-xWXrUlQ9Jp7GldW3owrJ-K3UihKQ29JKXpTFE"/><a class="font-headline-sm text-headline-sm tracking-tight text-on-surface flex items-center gap-space-xs hover:text-primary transition-colors" data-path="home-diario" href="#"><span>Movie<span class="text-primary">0</span></span></a></div><nav class="hidden lg:flex items-center gap-space-xs p-space-xs bg-surface-container-lowest/60 rounded-xl" data-active-classes="bg-surface-container-high text-primary font-bold rounded-lg shadow-[0_0_12px_rgba(245,158,11,0.1)]"><a class="px-space-md py-space-sm text-on-surface-variant hover:text-on-surface font-label-md text-label-md rounded-lg transition-colors" data-path="home-diario" href="#">Home / Diário</a><a class="px-space-md py-space-sm text-on-surface-variant hover:text-on-surface font-label-md text-label-md rounded-lg transition-colors" data-path="explorar-busca-tmdb" href="#">Explorar &amp; Busca TMDB</a><a class="px-space-md py-space-sm text-on-surface-variant hover:text-on-surface font-label-md text-label-md rounded-lg transition-colors" data-path="estatisticas-perfil" href="#">Estatísticas &amp; Perfil</a></nav><div class="flex items-center gap-space-md shrink-0"><div class="relative hidden sm:flex items-center"><button class="flex items-center gap-space-sm bg-surface-container-low hover:bg-surface-container px-space-md py-space-xs rounded-full text-on-surface-variant hover:text-on-surface transition-all shadow-[0_2px_8px_rgba(0,0,0,0.4)]" type="button"><span class="material-symbols-outlined text-primary text-[18px]">search</span><span class="font-body-sm text-body-sm pr-space-md">Buscar filmes, diretores...</span><kbd class="px-space-xs py-0.5 bg-surface-container-highest rounded text-on-surface-variant font-label-sm text-label-sm">⌘K</kbd></button></div><button class="flex items-center gap-space-xs bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-label-md font-bold px-space-md py-space-sm rounded-lg shadow-[0_0_20px_rgba(245,158,11,0.25)] hover:shadow-[0_0_25px_rgba(245,158,11,0.45)] transition-all cursor-pointer" type="button"><span class="material-symbols-outlined text-[18px]">add</span><span class="hidden md:inline">Registrar Filme</span></button><div class="relative flex items-center gap-space-xs pl-space-xs"><img alt="Profile" class="w-8 h-8 rounded-full object-cover shadow-[0_0_0_2px_rgba(245,158,11,0.2)]" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB1kTzT6PtnM4MGGSxidG0eTYjDpgZfU2lHZtlSpTtSbONi5xti7xS2Ih0zDtgLGTqMwX76ekgefFQlOonjPtBEdkmXfWbLGkPUoFhUO8ZuZVGVeT4rN1Wv0un4eC2VDu9P7dcKgaj0Q8xnU-KfjJDoNZ7fxzsseioGwgOvjNkyi9cg20IWKdCP8bfxcb2osFEaQ_Yk8LwrgI1wPhEnx2a0d2A6_gflVfxe6wK8h5mW1YAhDRBjwMxT"/><span class="material-symbols-outlined text-on-surface-variant text-[18px] cursor-pointer hover:text-on-surface transition-colors hidden sm:block">expand_more</span></div></div></div></header><main class="w-full max-w-7xl mx-auto px-margin pt-20 flex-1 bg-surface"><div class="flex flex-col w-full pb-space-xl">
+<!-- Profile Dossier Banner -->
+<section class="relative w-full rounded-2xl bg-surface-container-low p-space-lg md:p-space-xl overflow-hidden shadow-2xl">
+<!-- Ambient marquee radial aura -->
+<div class="absolute -right-24 -top-24 w-96 h-96 bg-primary/10 rounded-full blur-3xl pointer-events-none"></div>
+<div class="absolute -left-20 -bottom-20 w-80 h-80 bg-secondary-container/15 rounded-full blur-3xl pointer-events-none"></div>
+<div class="relative z-10 flex flex-col md:flex-row items-start md:items-center justify-between gap-space-lg">
+<div class="flex flex-col sm:flex-row items-start sm:items-center gap-space-lg">
+<div class="relative group">
+<div class="w-24 h-24 sm:w-28 sm:h-28 rounded-2xl overflow-hidden shadow-2xl bg-surface-container ring-offset-2 ring-offset-surface">
+<img alt="Lucas Cinefilo Avatar" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB1kTzT6PtnM4MGGSxidG0eTYjDpgZfU2lHZtlSpTtSbONi5xti7xS2Ih0zDtgLGTqMwX76ekgefFQlOonjPtBEdkmXfWbLGkPUoFhUO8ZuZVGVeT4rN1Wv0un4eC2VDu9P7dcKgaj0Q8xnU-KfjJDoNZ7fxzsseioGwgOvjNkyi9cg20IWKdCP8bfxcb2osFEaQ_Yk8LwrgI1wPhEnx2a0d2A6_gflVfxe6wK8h5mW1YAhDRBjwMxT"/>
+</div>
+<div class="absolute -bottom-2 -right-2 w-7 h-7 rounded-full bg-primary-container text-on-primary-container flex items-center justify-center shadow-lg" title="Membro Pro Cinephile">
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">verified</span>
+</div>
+</div>
+<div class="flex flex-col gap-space-xs">
+<div class="flex flex-wrap items-center gap-space-sm">
+<h1 class="font-headline-lg text-headline-lg text-on-surface">Lucas Cinefilo</h1>
+<span class="font-label-md text-label-md text-primary bg-primary/10 px-space-sm py-0.5 rounded-full font-semibold">@lucas_film</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant bg-surface-container-high px-space-xs py-0.5 rounded uppercase tracking-wider">Cinéfilo Nível VII</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-2xl">
+            Crítico amador, obcecado por ficção científica, nouvelle vague e thrillers psicológicos. 184 filmes logados no arquivo pessoal.
+          </p>
+<div class="flex flex-wrap items-center gap-space-xs mt-space-xs">
+<span class="font-label-sm text-label-sm text-on-surface-variant px-space-sm py-1 rounded-full bg-surface-container-high/80">Sci-Fi</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant px-space-sm py-1 rounded-full bg-surface-container-high/80">Neo-Noir</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant px-space-sm py-1 rounded-full bg-surface-container-high/80">Drama Histórico</span>
+<span class="font-label-sm text-label-sm text-primary px-space-sm py-1 rounded-full bg-primary/10 flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">local_activity</span> 35mm Aficionado
+            </span>
+</div>
+</div>
+</div>
+<div class="flex items-center gap-space-sm self-stretch md:self-auto justify-end">
+<button class="flex-1 md:flex-none flex items-center justify-center gap-space-xs px-space-md py-space-sm bg-surface-container-high hover:bg-surface-bright text-on-surface font-label-md text-label-md rounded-xl transition-all shadow-md" type="button">
+<span class="material-symbols-outlined text-[18px]">share</span>
+<span>Compartilhar</span>
+</button>
+<button class="flex-1 md:flex-none flex items-center justify-center gap-space-xs px-space-md py-space-sm bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-label-md rounded-xl shadow-lg hover:shadow-primary/20 transition-all font-bold" type="button">
+<span class="material-symbols-outlined text-[18px]">edit_note</span>
+<span>Editar Perfil</span>
+</button>
+</div>
+</div>
+</section>
+<!-- Editorial KPIs -->
+<section class="grid grid-cols-2 lg:grid-cols-4 gap-gutter mt-space-lg">
+<div class="relative bg-surface-container-low p-space-lg rounded-2xl shadow-xl flex flex-col justify-between overflow-hidden group hover:bg-surface-container transition-colors">
+<div class="flex items-center justify-between">
+<span class="font-label-md text-label-md text-on-surface-variant uppercase tracking-wider">Acervo Total</span>
+<div class="w-8 h-8 rounded-lg bg-primary/10 text-primary flex items-center justify-center">
+<span class="material-symbols-outlined text-[18px]">movie</span>
+</div>
+</div>
+<div class="mt-space-md">
+<span class="font-display-lg text-display-lg text-primary block leading-none">184</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant mt-space-xs block">Filmes assistidos catalogados</span>
+</div>
+<div class="absolute bottom-0 inset-x-0 h-1 bg-gradient-to-r from-primary to-transparent opacity-60"></div>
+</div>
+<div class="relative bg-surface-container-low p-space-lg rounded-2xl shadow-xl flex flex-col justify-between overflow-hidden group hover:bg-surface-container transition-colors">
+<div class="flex items-center justify-between">
+<span class="font-label-md text-label-md text-on-surface-variant uppercase tracking-wider">Ano Corrente (2024)</span>
+<div class="w-8 h-8 rounded-lg bg-tertiary/15 text-tertiary flex items-center justify-center">
+<span class="material-symbols-outlined text-[18px]">calendar_today</span>
+</div>
+</div>
+<div class="mt-space-md">
+<span class="font-display-lg text-display-lg text-on-surface block leading-none">42</span>
+<span class="font-body-sm text-body-sm text-tertiary mt-space-xs block flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">trending_up</span> Meta anual: 70% atingida
+        </span>
+</div>
+<div class="absolute bottom-0 inset-x-0 h-1 bg-gradient-to-r from-tertiary to-transparent opacity-60"></div>
+</div>
+<div class="relative bg-surface-container-low p-space-lg rounded-2xl shadow-xl flex flex-col justify-between overflow-hidden group hover:bg-surface-container transition-colors">
+<div class="flex items-center justify-between">
+<span class="font-label-md text-label-md text-on-surface-variant uppercase tracking-wider">Média Curatorial</span>
+<div class="w-8 h-8 rounded-lg bg-primary/10 text-primary flex items-center justify-center">
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+</div>
+<div class="mt-space-md">
+<div class="flex items-baseline gap-space-xs">
+<span class="font-display-lg text-display-lg text-primary block leading-none">3.92</span>
+<span class="font-title-md text-title-md text-outline">/ 5.0</span>
+</div>
+<div class="flex items-center gap-0.5 mt-space-xs text-primary">
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px] text-outline">star_half</span>
+</div>
+</div>
+<div class="absolute bottom-0 inset-x-0 h-1 bg-gradient-to-r from-primary to-transparent opacity-60"></div>
+</div>
+<div class="relative bg-surface-container-low p-space-lg rounded-2xl shadow-xl flex flex-col justify-between overflow-hidden group hover:bg-surface-container transition-colors">
+<div class="flex items-center justify-between">
+<span class="font-label-md text-label-md text-on-surface-variant uppercase tracking-wider">Tempo em Tela</span>
+<div class="w-8 h-8 rounded-lg bg-secondary-container/30 text-secondary flex items-center justify-center">
+<span class="material-symbols-outlined text-[18px]">timelapse</span>
+</div>
+</div>
+<div class="mt-space-md">
+<span class="font-display-lg text-display-lg text-on-surface block leading-none">328<span class="font-headline-sm text-headline-sm text-on-surface-variant ml-1 font-normal">h</span></span>
+<span class="font-body-sm text-body-sm text-on-surface-variant mt-space-xs block">Aprox. 13.6 dias ininterruptos</span>
+</div>
+<div class="absolute bottom-0 inset-x-0 h-1 bg-gradient-to-r from-secondary-container to-transparent opacity-60"></div>
+</div>
+</section>
+<!-- Main Analytics Grid -->
+<section class="grid grid-cols-1 lg:grid-cols-12 gap-gutter mt-space-xl items-start">
+<!-- Star Distribution & Timeline (8 Cols) -->
+<div class="lg:col-span-8 flex flex-col gap-space-lg">
+<!-- Graph 1: Horizontal Histogram of Ratings -->
+<div class="bg-surface-container-low p-space-lg rounded-2xl shadow-xl flex flex-col">
+<div class="flex flex-col sm:flex-row sm:items-center justify-between gap-space-xs mb-space-lg">
+<div>
+<div class="flex items-center gap-space-xs">
+<span class="w-2.5 h-2.5 rounded-full bg-primary"></span>
+<h2 class="font-headline-sm text-headline-sm text-on-surface">Distribuição de Notas</h2>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">Dispersão detalhada de 0.5 a 5.0 estrelas (184 avaliações)</p>
+</div>
+<span class="font-label-sm text-label-sm px-space-sm py-1 bg-surface-container text-on-surface-variant rounded-full self-start sm:self-auto">
+            Concentração: 4.0 - 4.5 ★
+          </span>
+</div>
+<!-- Rating Horizontal Bars -->
+<div class="flex flex-col gap-space-sm">
+<!-- 5.0 -->
+<div class="flex items-center gap-space-md group">
+<div class="w-16 flex items-center gap-1 shrink-0 justify-end">
+<span class="font-label-md text-label-md text-on-surface">5.0</span>
+<span class="material-symbols-outlined text-primary text-[14px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<div class="flex-1 h-5 bg-surface-container-highest rounded-full overflow-hidden p-0.5">
+<div class="h-full bg-gradient-to-r from-primary to-primary-fixed-dim rounded-full transition-all duration-700" style="width: 48%"></div>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant w-10 text-right group-hover:text-primary transition-colors">26</span>
+</div>
+<!-- 4.5 -->
+<div class="flex items-center gap-space-md group">
+<div class="w-16 flex items-center gap-1 shrink-0 justify-end">
+<span class="font-label-md text-label-md text-primary font-bold">4.5</span>
+<span class="material-symbols-outlined text-primary text-[14px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<div class="flex-1 h-5 bg-surface-container-highest rounded-full overflow-hidden p-0.5">
+<div class="h-full bg-primary-container rounded-full transition-all duration-700 shadow-[0_0_12px_rgba(245,158,11,0.4)]" style="width: 88%"></div>
+</div>
+<span class="font-label-sm text-label-sm text-primary font-bold w-10 text-right">48</span>
+</div>
+<!-- 4.0 -->
+<div class="flex items-center gap-space-md group">
+<div class="w-16 flex items-center gap-1 shrink-0 justify-end">
+<span class="font-label-md text-label-md text-primary font-bold">4.0</span>
+<span class="material-symbols-outlined text-primary text-[14px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<div class="flex-1 h-5 bg-surface-container-highest rounded-full overflow-hidden p-0.5">
+<div class="h-full bg-primary-container rounded-full transition-all duration-700 shadow-[0_0_12px_rgba(245,158,11,0.4)]" style="width: 100%"></div>
+</div>
+<span class="font-label-sm text-label-sm text-primary font-bold w-10 text-right">54</span>
+</div>
+<!-- 3.5 -->
+<div class="flex items-center gap-space-md group">
+<div class="w-16 flex items-center gap-1 shrink-0 justify-end">
+<span class="font-label-md text-label-md text-on-surface">3.5</span>
+<span class="material-symbols-outlined text-primary text-[14px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<div class="flex-1 h-5 bg-surface-container-highest rounded-full overflow-hidden p-0.5">
+<div class="h-full bg-gradient-to-r from-primary/70 to-primary/40 rounded-full transition-all duration-700" style="width: 52%"></div>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant w-10 text-right group-hover:text-primary transition-colors">28</span>
+</div>
+<!-- 3.0 -->
+<div class="flex items-center gap-space-md group">
+<div class="w-16 flex items-center gap-1 shrink-0 justify-end">
+<span class="font-label-md text-label-md text-on-surface">3.0</span>
+<span class="material-symbols-outlined text-primary text-[14px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<div class="flex-1 h-5 bg-surface-container-highest rounded-full overflow-hidden p-0.5">
+<div class="h-full bg-surface-variant rounded-full transition-all duration-700" style="width: 32%"></div>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant w-10 text-right group-hover:text-on-surface transition-colors">17</span>
+</div>
+<!-- 2.5 -->
+<div class="flex items-center gap-space-md group">
+<div class="w-16 flex items-center gap-1 shrink-0 justify-end">
+<span class="font-label-md text-label-md text-on-surface-variant">2.5</span>
+<span class="material-symbols-outlined text-outline text-[14px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<div class="flex-1 h-5 bg-surface-container-highest rounded-full overflow-hidden p-0.5">
+<div class="h-full bg-surface-variant rounded-full transition-all duration-700" style="width: 13%"></div>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant w-10 text-right">7</span>
+</div>
+<!-- 2.0 -->
+<div class="flex items-center gap-space-md group">
+<div class="w-16 flex items-center gap-1 shrink-0 justify-end">
+<span class="font-label-md text-label-md text-on-surface-variant">2.0</span>
+<span class="material-symbols-outlined text-outline text-[14px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<div class="flex-1 h-5 bg-surface-container-highest rounded-full overflow-hidden p-0.5">
+<div class="h-full bg-surface-variant rounded-full transition-all duration-700" style="width: 6%"></div>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant w-10 text-right">3</span>
+</div>
+<!-- 1.0 - 1.5 -->
+<div class="flex items-center gap-space-md group">
+<div class="w-16 flex items-center gap-1 shrink-0 justify-end">
+<span class="font-label-md text-label-md text-outline">0.5-1.5</span>
+<span class="material-symbols-outlined text-outline text-[14px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<div class="flex-1 h-5 bg-surface-container-highest rounded-full overflow-hidden p-0.5">
+<div class="h-full bg-error-container/40 rounded-full transition-all duration-700" style="width: 2%"></div>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant w-10 text-right">1</span>
+</div>
+</div>
+</div>
+<!-- Graph 2: 2024 Rhythm / Cadence SVG Curve Chart -->
+<div class="bg-surface-container-low p-space-lg rounded-2xl shadow-xl flex flex-col">
+<div class="flex flex-col sm:flex-row sm:items-center justify-between gap-space-xs mb-space-md">
+<div>
+<div class="flex items-center gap-space-xs">
+<span class="w-2.5 h-2.5 rounded-full bg-tertiary"></span>
+<h2 class="font-headline-sm text-headline-sm text-on-surface">Ritmo de Sessões em 2024</h2>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">Frequência mensal de filmes assistidos e arquivados</p>
+</div>
+<div class="flex items-center gap-space-md font-label-sm text-label-sm text-on-surface-variant">
+<span class="flex items-center gap-1.5"><span class="w-2.5 h-2.5 rounded-full bg-tertiary"></span> Sessões</span>
+<span class="flex items-center gap-1.5"><span class="w-2.5 h-0.5 bg-outline"></span> Média: 4.2 / mês</span>
+</div>
+</div>
+<!-- SVG Timeline Curve -->
+<div class="w-full h-56 pt-space-md relative flex items-end">
+<svg class="w-full h-full overflow-visible" preserveaspectratio="none" viewbox="0 0 700 180">
+<defs>
+<lineargradient id="areaGradient" x1="0" x2="0" y1="0" y2="1">
+<stop offset="0%" stop-color="#38bdf8" stop-opacity="0.35"></stop>
+<stop offset="100%" stop-color="#38bdf8" stop-opacity="0.0"></stop>
+</lineargradient>
+</defs>
+<!-- Guide grid lines -->
+<line stroke="#33343b" stroke-dasharray="4,4" stroke-opacity="0.4" x1="0" x2="700" y1="30" y2="30"></line>
+<line stroke="#33343b" stroke-dasharray="4,4" stroke-opacity="0.4" x1="0" x2="700" y1="75" y2="75"></line>
+<line stroke="#33343b" stroke-dasharray="4,4" stroke-opacity="0.4" x1="0" x2="700" y1="120" y2="120"></line>
+<!-- Filled area path -->
+<path d="M 15 140 
+                     C 70 140, 75 110, 135 110 
+                     C 195 110, 205 130, 260 130 
+                     C 315 130, 330 65, 385 65 
+                     C 440 65, 455 85, 510 85 
+                     C 565 85, 580 30, 635 30 
+                     C 660 30, 680 45, 685 45 
+                     L 685 170 L 15 170 Z" fill="url(#areaGradient)"></path>
+<!-- Curved line -->
+<path d="M 15 140 
+                     C 70 140, 75 110, 135 110 
+                     C 195 110, 205 130, 260 130 
+                     C 315 130, 330 65, 385 65 
+                     C 440 65, 455 85, 510 85 
+                     C 565 85, 580 30, 635 30 
+                     C 660 30, 680 45, 685 45" fill="none" stroke="#38bdf8" stroke-linecap="round" stroke-width="3"></path>
+<!-- Data Dots & Values -->
+<!-- Jan: 3 -->
+<circle cx="15" cy="140" fill="#111319" r="4.5" stroke="#38bdf8" stroke-width="2.5"></circle>
+<!-- Fev: 4 -->
+<circle cx="135" cy="110" fill="#111319" r="4.5" stroke="#38bdf8" stroke-width="2.5"></circle>
+<!-- Mar: 3 -->
+<circle cx="260" cy="130" fill="#111319" r="4.5" stroke="#38bdf8" stroke-width="2.5"></circle>
+<!-- Abr: 7 -->
+<circle cx="385" cy="65" fill="#ffc174" r="5" stroke="#f59e0b" stroke-width="2.5"></circle>
+<!-- Mai: 6 -->
+<circle cx="510" cy="85" fill="#111319" r="4.5" stroke="#38bdf8" stroke-width="2.5"></circle>
+<!-- Jun (Pico): 9 -->
+<circle cx="635" cy="30" fill="#f59e0b" r="6" stroke="#ffffff" stroke-width="2"></circle>
+<text fill="#ffc174" font-family="Plus Jakarta Sans" font-size="11" font-weight="700" text-anchor="middle" x="635" y="16">Pico: 9</text>
+<!-- Jul: 8 -->
+<circle cx="685" cy="45" fill="#111319" r="4.5" stroke="#38bdf8" stroke-width="2.5"></circle>
+</svg>
+</div>
+<!-- Month Labels -->
+<div class="flex justify-between items-center px-2 pt-space-xs font-label-sm text-label-sm text-on-surface-variant">
+<span>Jan</span>
+<span>Fev</span>
+<span>Mar</span>
+<span>Abr</span>
+<span>Mai</span>
+<span class="text-primary font-bold">Jun</span>
+<span>Jul</span>
+<span class="text-outline">Ago</span>
+<span class="text-outline">Set</span>
+<span class="text-outline">Out</span>
+</div>
+</div>
+</div>
+<!-- Right Rail: Top Directors & Decades (4 Cols) -->
+<div class="lg:col-span-4 flex flex-col gap-space-lg">
+<!-- Top Directors Ranking -->
+<div class="bg-surface-container-low p-space-lg rounded-2xl shadow-xl flex flex-col">
+<div class="flex items-center justify-between mb-space-md">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-primary text-[20px]">theater_comedy</span>
+<h2 class="font-headline-sm text-headline-sm text-on-surface">Top Diretores</h2>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Top 5</span>
+</div>
+<div class="flex flex-col gap-space-sm">
+<!-- 1. Christopher Nolan -->
+<div class="flex items-center justify-between p-space-sm bg-surface-container rounded-xl hover:bg-surface-container-high transition-colors">
+<div class="flex items-center gap-space-md">
+<span class="font-display-lg text-[22px] leading-none text-primary font-bold w-4 text-center">1</span>
+<img class="w-10 h-10 rounded-full object-cover shadow-md" data-alt="Portrait of director Christopher Nolan in dark tailored trenchcoat, moody ambient atmospheric cinema lights, shallow focus cinematic photorealism" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBmb0uez3WMM9sbBCzQ9EFUvKahC4mdNYR7MTOYVzzLmj6gPNtv-akdqqCMoxB0OlobSWS5X5jFrJ2GFCRRY1nejNrDfvgFMKzRvWe7e4oJEKgM4USr1TFxd-RhpJhFPyJKNGkkcLUffLMM6N205g9qStmO6u0B7NlVa-FnSnliHDA_Bf6-dKjrfYmS8NfJ1nlmiA4Hep1V_e2QskgDdyUMgauCGNrndalHRp3GTsqVjCld8-7ZKYps"/>
+<div class="flex flex-col">
+<span class="font-title-md text-title-md text-on-surface font-semibold leading-tight">Christopher Nolan</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Oppenheimer, Interstellar...</span>
+</div>
+</div>
+<div class="flex items-center gap-1 bg-surface-container-highest px-2.5 py-1 rounded-lg">
+<span class="font-label-md text-label-md text-primary font-bold">9</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">filmes</span>
+</div>
+</div>
+<!-- 2. Denis Villeneuve -->
+<div class="flex items-center justify-between p-space-sm bg-surface-container rounded-xl hover:bg-surface-container-high transition-colors">
+<div class="flex items-center gap-space-md">
+<span class="font-display-lg text-[22px] leading-none text-on-surface-variant font-bold w-4 text-center">2</span>
+<img class="w-10 h-10 rounded-full object-cover shadow-md" data-alt="Portrait of film director Denis Villeneuve with soft desert ambient tones, thoughtful gaze, cinematic film set background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAdiKl2I1LcSCaATLy5g-Ff6LVoEHje3LKlEluU6NQqO29BuyEk_xRszNFi-GOYeKIdo0w_uU4s1AT7M5CFUzIBDXOsx4M8krevrGZYzFQxGuer-LfhvjzKBYVrbQ193_3FQPvH283WK5S6sys7zau6a4ZEUB3umrBHCEby9e4DNK7tRni2XDSHwZ6MJNwN6XJxH-rKoYtm9wrAaIZozH5S5LrFV2Lzu4WWw3DYeRFxAGAVcOK5v07b"/>
+<div class="flex flex-col">
+<span class="font-title-md text-title-md text-on-surface font-semibold leading-tight">Denis Villeneuve</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Dune 2, Blade Runner 2049...</span>
+</div>
+</div>
+<div class="flex items-center gap-1 bg-surface-container-highest px-2.5 py-1 rounded-lg">
+<span class="font-label-md text-label-md text-primary font-bold">8</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">filmes</span>
+</div>
+</div>
+<!-- 3. Martin Scorsese -->
+<div class="flex items-center justify-between p-space-sm bg-surface-container rounded-xl hover:bg-surface-container-high transition-colors">
+<div class="flex items-center gap-space-md">
+<span class="font-display-lg text-[22px] leading-none text-on-surface-variant font-bold w-4 text-center">3</span>
+<img class="w-10 h-10 rounded-full object-cover shadow-md" data-alt="Portrait of director Martin Scorsese with classic thick framed glasses, warm golden screening room lighting, intense expressive gaze" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDl4BdI2xL702BdhBPurKKxRqOFyYGuIbm-s6m7WKRRkIaOx-729yzb0kCB3sqzqt6PToO5jad-B3MJulsaOfnNV4OLPq7fu4UA1NEQDUFzwAlSpKmj2jZQnjsLGytlgDijWR7Wxakao7alltr0BoQXkV3saLPAE-7kf-q5DLFDq0RZ3a0xDLRw44tx9n_BrkLAi4HVagtqtJ5Wd7dBTof-NThXuB_mU2ZtlWmh5Pkr0-gcRQ0p4R8L"/>
+<div class="flex flex-col">
+<span class="font-title-md text-title-md text-on-surface font-semibold leading-tight">Martin Scorsese</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Taxi Driver, Killers of the Flower Moon...</span>
+</div>
+</div>
+<div class="flex items-center gap-1 bg-surface-container-highest px-2.5 py-1 rounded-lg">
+<span class="font-label-md text-label-md text-primary font-bold">7</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">filmes</span>
+</div>
+</div>
+<!-- 4. Quentin Tarantino -->
+<div class="flex items-center justify-between p-space-sm bg-surface-container rounded-xl hover:bg-surface-container-high transition-colors">
+<div class="flex items-center gap-space-md">
+<span class="font-display-lg text-[22px] leading-none text-outline font-bold w-4 text-center">4</span>
+<div class="w-10 h-10 rounded-full bg-surface-container-highest flex items-center justify-center text-primary font-bold text-sm">
+                QT
+              </div>
+<div class="flex flex-col">
+<span class="font-title-md text-title-md text-on-surface font-semibold leading-tight">Quentin Tarantino</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Pulp Fiction, Inglourious Basterds...</span>
+</div>
+</div>
+<div class="flex items-center gap-1 bg-surface-container-highest px-2.5 py-1 rounded-lg">
+<span class="font-label-md text-label-md text-primary font-bold">6</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">filmes</span>
+</div>
+</div>
+<!-- 5. David Fincher -->
+<div class="flex items-center justify-between p-space-sm bg-surface-container rounded-xl hover:bg-surface-container-high transition-colors">
+<div class="flex items-center gap-space-md">
+<span class="font-display-lg text-[22px] leading-none text-outline font-bold w-4 text-center">5</span>
+<div class="w-10 h-10 rounded-full bg-surface-container-highest flex items-center justify-center text-primary font-bold text-sm">
+                DF
+              </div>
+<div class="flex flex-col">
+<span class="font-title-md text-title-md text-on-surface font-semibold leading-tight">David Fincher</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Zodiac, Se7en, Fight Club...</span>
+</div>
+</div>
+<div class="flex items-center gap-1 bg-surface-container-highest px-2.5 py-1 rounded-lg">
+<span class="font-label-md text-label-md text-primary font-bold">6</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">filmes</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Top Decades & Eras Breakdown -->
+<div class="bg-surface-container-low p-space-lg rounded-2xl shadow-xl flex flex-col">
+<div class="flex items-center justify-between mb-space-md">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-tertiary-container text-[20px]">history_toggle_off</span>
+<h2 class="font-headline-sm text-headline-sm text-on-surface">Décadas Assistidas</h2>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Cronologia</span>
+</div>
+<div class="flex flex-col gap-space-md">
+<!-- Anos 2020: 38% -->
+<div>
+<div class="flex justify-between items-center font-body-sm text-body-sm mb-1">
+<span class="text-on-surface font-semibold">Anos 2020</span>
+<span class="text-primary font-bold">38% <span class="text-on-surface-variant font-normal">(70 filmes)</span></span>
+</div>
+<div class="w-full h-2.5 bg-surface-container-highest rounded-full overflow-hidden">
+<div class="h-full bg-primary rounded-full" style="width: 38%"></div>
+</div>
+</div>
+<!-- Anos 2010: 32% -->
+<div>
+<div class="flex justify-between items-center font-body-sm text-body-sm mb-1">
+<span class="text-on-surface font-semibold">Anos 2010</span>
+<span class="text-tertiary font-bold">32% <span class="text-on-surface-variant font-normal">(59 filmes)</span></span>
+</div>
+<div class="w-full h-2.5 bg-surface-container-highest rounded-full overflow-hidden">
+<div class="h-full bg-tertiary-container rounded-full" style="width: 32%"></div>
+</div>
+</div>
+<!-- Anos 90: 15% -->
+<div>
+<div class="flex justify-between items-center font-body-sm text-body-sm mb-1">
+<span class="text-on-surface font-semibold">Anos 1990</span>
+<span class="text-secondary font-bold">15% <span class="text-on-surface-variant font-normal">(28 filmes)</span></span>
+</div>
+<div class="w-full h-2.5 bg-surface-container-highest rounded-full overflow-hidden">
+<div class="h-full bg-secondary-container rounded-full" style="width: 15%"></div>
+</div>
+</div>
+<!-- Outras Décadas (Anos 70/80/Clássicos) -->
+<div>
+<div class="flex justify-between items-center font-body-sm text-body-sm mb-1">
+<span class="text-on-surface font-semibold">Anos 1970–1980</span>
+<span class="text-on-surface-variant font-bold">10% <span class="font-normal">(18 filmes)</span></span>
+</div>
+<div class="w-full h-2.5 bg-surface-container-highest rounded-full overflow-hidden">
+<div class="h-full bg-outline rounded-full" style="width: 10%"></div>
+</div>
+</div>
+<!-- Cinema Clássico (<1970) -->
+<div>
+<div class="flex justify-between items-center font-body-sm text-body-sm mb-1">
+<span class="text-on-surface font-semibold">Era de Ouro (&lt;1970)</span>
+<span class="text-on-surface-variant font-bold">5% <span class="font-normal">(9 filmes)</span></span>
+</div>
+<div class="w-full h-2.5 bg-surface-container-highest rounded-full overflow-hidden">
+<div class="h-full bg-surface-variant rounded-full" style="width: 5%"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Bottom Section: Recent Reviews & Logs Compact List -->
+<section class="mt-space-xl bg-surface-container-low p-space-lg md:p-space-xl rounded-2xl shadow-xl flex flex-col">
+<div class="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-space-sm mb-space-lg">
+<div class="flex items-center gap-space-sm">
+<div class="w-9 h-9 rounded-xl bg-primary/10 text-primary flex items-center justify-center">
+<span class="material-symbols-outlined text-[20px]">rate_review</span>
+</div>
+<div>
+<h2 class="font-headline-sm text-headline-sm text-on-surface">Suas Resenhas Mais Recentes</h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Notas críticas, impressões e anotações dos últimos diários</p>
+</div>
+</div>
+<div class="flex items-center gap-space-xs">
+<button class="px-space-md py-space-xs text-on-surface-variant hover:text-on-surface bg-surface-container rounded-lg font-label-md text-label-md transition-colors" type="button">
+          Ver Todas (87)
+        </button>
+</div>
+</div>
+<!-- Review Items Container -->
+<div class="flex flex-col gap-space-sm" id="reviews-list">
+<!-- Review 1: Oppenheimer -->
+<article class="review-item group flex flex-col md:flex-row items-start md:items-center justify-between p-space-md bg-surface-container rounded-xl hover:bg-surface-container-high transition-all gap-space-md">
+<div class="flex items-start gap-space-md flex-1 min-w-0">
+<div class="w-14 h-20 shrink-0 rounded-lg overflow-hidden bg-surface-container-highest shadow-md">
+<img class="w-full h-full object-cover" data-alt="Official atmospheric film poster of Oppenheimer, Christopher Nolan film, dramatic close-up of Cillian Murphy with intense orange fire reflections" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDd_3-VNbCuMFAePb7KcaqazG9LVJfPEvgazMAAd6c_ZtFqIKBzn09LTYCOGpfQ2AZInUoChN-NlF9NJJ6voo6kfIrfaSlsVKTQUiSEfIZnLVnfCxUabNn1w3udKYfSF_zHe8K7758Yy_zi2OfSZJXpyun1vlt116-u51Jv7hE6d93U_QW6tKUWI726ltQJWS_OoopebKOBRnnkOnnByWbPhqsxNBJs6AuE2F_Y6ekKXcFte-rrexCU"/>
+</div>
+<div class="flex flex-col min-w-0">
+<div class="flex flex-wrap items-center gap-space-xs">
+<h3 class="font-title-lg text-title-lg text-on-surface font-bold truncate">Oppenheimer</h3>
+<span class="font-label-sm text-label-sm text-on-surface-variant">(2023)</span>
+<span class="font-label-sm text-label-sm text-primary bg-primary/10 px-2 py-0.5 rounded-full flex items-center gap-1 font-semibold ml-1">
+<span class="material-symbols-outlined text-[12px]" style="font-variation-settings: 'FILL' 1;">star</span> 5.0
+              </span>
+<span class="font-label-sm text-label-sm text-secondary bg-secondary-container/20 px-2 py-0.5 rounded-full flex items-center gap-1">
+<span class="material-symbols-outlined text-[12px]" style="font-variation-settings: 'FILL' 1;">favorite</span> Favorito
+              </span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant mt-1 line-clamp-2">
+              "A montagem sonora de Richard King constrói uma claustrofobia quase insuportável no terceiro ato. A cena do teste Trinity é cinema puro, transcendendo o biopic tradicional em uma ópera sobre culpa cósmica."
+            </p>
+<div class="flex items-center gap-space-md mt-2 font-label-sm text-label-sm text-outline">
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[14px]">event</span> 14 Jul 2024</span>
+<span>•</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[14px]">theaters</span> Sessão IMAX 70mm</span>
+</div>
+</div>
+</div>
+<div class="flex items-center gap-space-xs self-end md:self-center shrink-0">
+<button class="action-edit p-2 text-on-surface-variant hover:text-primary hover:bg-surface-container-highest rounded-lg transition-colors" title="Editar Resenha" type="button">
+<span class="material-symbols-outlined text-[20px]">edit</span>
+</button>
+<button class="action-delete p-2 text-on-surface-variant hover:text-error hover:bg-error-container/20 rounded-lg transition-colors" title="Remover Diário" type="button">
+<span class="material-symbols-outlined text-[20px]">delete</span>
+</button>
+</div>
+</article>
+<!-- Review 2: Dune: Part Two -->
+<article class="review-item group flex flex-col md:flex-row items-start md:items-center justify-between p-space-md bg-surface-container rounded-xl hover:bg-surface-container-high transition-all gap-space-md">
+<div class="flex items-start gap-space-md flex-1 min-w-0">
+<div class="w-14 h-20 shrink-0 rounded-lg overflow-hidden bg-surface-container-highest shadow-md">
+<img class="w-full h-full object-cover" data-alt="Official film poster of Dune Part Two, directed by Denis Villeneuve, sand dunes glowing under incandescent sun with Timothee Chalamet silhouette" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBhV0m4swC9WAnk2P679FEhh43p3FLyZekNZBLLijugAJSG_jf8q17v6RKF9FV82eDIEpeBHr8X0t1iJB9gNiR77zVOK-Sq8sY7Ea8y8bEvxgIZYLVXrm7MHNeqGqs8O9k11n23dVl4FkSAMREt7LSRApv1qOh-qcjUfKklhRz7I_gTQRK2CkoS-OgmOYv92nT3CjuZMLB-_7W6V8lVRN7MeCycUZNrpQ3ipELquwMlphpFEkOeBFLN"/>
+</div>
+<div class="flex flex-col min-w-0">
+<div class="flex flex-wrap items-center gap-space-xs">
+<h3 class="font-title-lg text-title-lg text-on-surface font-bold truncate">Duna: Parte 2</h3>
+<span class="font-label-sm text-label-sm text-on-surface-variant">(2024)</span>
+<span class="font-label-sm text-label-sm text-primary bg-primary/10 px-2 py-0.5 rounded-full flex items-center gap-1 font-semibold ml-1">
+<span class="material-symbols-outlined text-[12px]" style="font-variation-settings: 'FILL' 1;">star</span> 4.5
+              </span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant mt-1 line-clamp-2">
+              "Greig Fraser opera milagres com as câmeras infravermelho nas sequências de Giedi Prime. Austin Butler é uma força magnética sinistra. O ritmo arrasta ligeiramente no meio, mas o clímax compensa cada segundo."
+            </p>
+<div class="flex items-center gap-space-md mt-2 font-label-sm text-label-sm text-outline">
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[14px]">event</span> 02 Jul 2024</span>
+<span>•</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[14px]">replay</span> Rewatch #2</span>
+</div>
+</div>
+</div>
+<div class="flex items-center gap-space-xs self-end md:self-center shrink-0">
+<button class="action-edit p-2 text-on-surface-variant hover:text-primary hover:bg-surface-container-highest rounded-lg transition-colors" title="Editar Resenha" type="button">
+<span class="material-symbols-outlined text-[20px]">edit</span>
+</button>
+<button class="action-delete p-2 text-on-surface-variant hover:text-error hover:bg-error-container/20 rounded-lg transition-colors" title="Remover Diário" type="button">
+<span class="material-symbols-outlined text-[20px]">delete</span>
+</button>
+</div>
+</article>
+<!-- Review 3: Perfect Days -->
+<article class="review-item group flex flex-col md:flex-row items-start md:items-center justify-between p-space-md bg-surface-container rounded-xl hover:bg-surface-container-high transition-all gap-space-md">
+<div class="flex items-start gap-space-md flex-1 min-w-0">
+<div class="w-14 h-20 shrink-0 rounded-lg overflow-hidden bg-surface-container-highest shadow-md">
+<img class="w-full h-full object-cover" data-alt="Official film poster of Perfect Days by Wim Wenders, Koji Yakusho looking upward through Tokyo tree leaves with sunlight streaming through" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBRESxzQRKiNwj6i2pqcBXD-q2NNn_mC0yMG6PsHziziPLdH29lnSwXVWeTSrDglZvwKIqqkiW6sgOG6NRUfkzwbMxxYvztgajYbsiz-QFIxHmia-Hcag52BRQZyQYCzIdsRO52GjpwOofkSMW1tdsu2qeoBitB2fFgB7FDJGzKohYw3M4Nao8yzHDBaQh-vD57mNtpMOwJxuep4naqMosbARlOB_ek7tQd0G_Lec1I2W7A7rDr4drI"/>
+</div>
+<div class="flex flex-col min-w-0">
+<div class="flex flex-wrap items-center gap-space-xs">
+<h3 class="font-title-lg text-title-lg text-on-surface font-bold truncate">Dias Perfeitos</h3>
+<span class="font-label-sm text-label-sm text-on-surface-variant">(2023)</span>
+<span class="font-label-sm text-label-sm text-primary bg-primary/10 px-2 py-0.5 rounded-full flex items-center gap-1 font-semibold ml-1">
+<span class="material-symbols-outlined text-[12px]" style="font-variation-settings: 'FILL' 1;">star</span> 4.5
+              </span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant mt-1 line-clamp-2">
+              "A apoteose do cinema contemplativo de Wenders. Lou Reed, fitas cassete analógicas e a rotina poética dos banheiros de Tóquio. O plano final no rosto de Yakusho é das coisas mais comoventes da década."
+            </p>
+<div class="flex items-center gap-space-md mt-2 font-label-sm text-label-sm text-outline">
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[14px]">event</span> 21 Jun 2024</span>
+<span>•</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[14px]">language</span> Cine Belas Artes</span>
+</div>
+</div>
+</div>
+<div class="flex items-center gap-space-xs self-end md:self-center shrink-0">
+<button class="action-edit p-2 text-on-surface-variant hover:text-primary hover:bg-surface-container-highest rounded-lg transition-colors" title="Editar Resenha" type="button">
+<span class="material-symbols-outlined text-[20px]">edit</span>
+</button>
+<button class="action-delete p-2 text-on-surface-variant hover:text-error hover:bg-error-container/20 rounded-lg transition-colors" title="Remover Diário" type="button">
+<span class="material-symbols-outlined text-[20px]">delete</span>
+</button>
+</div>
+</article>
+<!-- Review 4: Past Lives -->
+<article class="review-item group flex flex-col md:flex-row items-start md:items-center justify-between p-space-md bg-surface-container rounded-xl hover:bg-surface-container-high transition-all gap-space-md">
+<div class="flex items-start gap-space-md flex-1 min-w-0">
+<div class="w-14 h-20 shrink-0 rounded-lg overflow-hidden bg-surface-container-highest shadow-md">
+<img class="w-full h-full object-cover" data-alt="Official film poster of Past Lives by Celine Song, romantic melancholy tone, Greta Lee and Teo Yoo on New York subway car looking at each other" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB5fY5nByWOAS8Nb9FxJCf9s6IJZQMlkhRR4hm-Pg36gQER25e1qEEUtLX4bDQzEGSMAne_ropa6yS2SB8GorQ9ch3yf1XYnTYw_k26004bcIH_HnANvkQt8gvKOMHCrJPqTAxJqyweGpSqDSqtxGghNxoSGNuEm5QliGtNgMhPBat5zyiGHTIllFaG0KAk4SJ87-3u6-LfJ6a7bm6RAB-PdjdzciOICgYrxETcsVyUKwVysHIRuY1q"/>
+</div>
+<div class="flex flex-col min-w-0">
+<div class="flex flex-wrap items-center gap-space-xs">
+<h3 class="font-title-lg text-title-lg text-on-surface font-bold truncate">Vidas Passadas</h3>
+<span class="font-label-sm text-label-sm text-on-surface-variant">(2023)</span>
+<span class="font-label-sm text-label-sm text-primary bg-primary/10 px-2 py-0.5 rounded-full flex items-center gap-1 font-semibold ml-1">
+<span class="material-symbols-outlined text-[12px]" style="font-variation-settings: 'FILL' 1;">star</span> 4.0
+              </span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant mt-1 line-clamp-2">
+              "In-Yun como metáfora dolorosa do que nunca pôde ser. A sensibilidade do roteiro de Celine Song não cai em melodrama barato. Uma estreia deslumbrante de maturidade emocional."
+            </p>
+<div class="flex items-center gap-space-md mt-2 font-label-sm text-label-sm text-outline">
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[14px]">event</span> 09 Jun 2024</span>
+<span>•</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[14px]">tv</span> Home Cinema</span>
+</div>
+</div>
+</div>
+<div class="flex items-center gap-space-xs self-end md:self-center shrink-0">
+<button class="action-edit p-2 text-on-surface-variant hover:text-primary hover:bg-surface-container-highest rounded-lg transition-colors" title="Editar Resenha" type="button">
+<span class="material-symbols-outlined text-[20px]">edit</span>
+</button>
+<button class="action-delete p-2 text-on-surface-variant hover:text-error hover:bg-error-container/20 rounded-lg transition-colors" title="Remover Diário" type="button">
+<span class="material-symbols-outlined text-[20px]">delete</span>
+</button>
+</div>
+</article>
+</div>
+</section>
+<!-- Interactive Inline Script for Edit/Remove Feedback -->
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const container = document.getElementById('reviews-list');
+      if (!container) return;
+
+      container.addEventListener('click', (e) => {
+        const deleteBtn = e.target.closest('.action-delete');
+        if (deleteBtn) {
+          const item = deleteBtn.closest('.review-item');
+          if (item) {
+            item.style.transition = 'all 0.35s ease-out';
+            item.style.opacity = '0';
+            item.style.transform = 'translateX(20px)';
+            setTimeout(() => {
+              item.remove();
+            }, 350);
+          }
+          return;
+        }
+
+        const editBtn = e.target.closest('.action-edit');
+        if (editBtn) {
+          const item = editBtn.closest('.review-item');
+          const titleEl = item?.querySelector('h3');
+          const movieTitle = titleEl ? titleEl.innerText : 'filme';
+          
+          editBtn.classList.add('text-primary');
+          const originalIcon = editBtn.innerHTML;
+          editBtn.innerHTML = '<span class="material-symbols-outlined text-[20px] animate-spin">sync</span>';
+          setTimeout(() => {
+            editBtn.innerHTML = originalIcon;
+            alert(`Abrindo editor para "${movieTitle}"...`);
+          }, 400);
+        }
+      });
+    });
+  </script>
+</div></main><footer class="w-full bg-surface-container-lowest mt-space-xl py-space-xl shadow-[0_-1px_12px_rgba(0,0,0,0.5)]"><div class="max-w-7xl mx-auto px-margin flex flex-col md:flex-row items-center justify-between gap-space-lg"><div class="flex flex-col items-center md:items-start gap-space-xs"><div class="flex items-center gap-space-xs font-headline-sm text-headline-sm text-on-surface"><span>Movie<span class="text-primary">0</span></span><span class="font-label-sm text-label-sm px-space-xs py-0.5 bg-surface-container-high rounded text-on-surface-variant uppercase tracking-wider">Cinephile Archive</span></div><p class="font-body-sm text-body-sm text-on-surface-variant text-center md:text-left">Diário e registro cinematográfico de alta precisão curatorial.</p></div><div class="flex flex-wrap items-center justify-center gap-space-md"><div class="flex items-center gap-space-xs px-space-md py-space-xs bg-surface-container-low rounded-lg"><span class="material-symbols-outlined text-primary text-[18px]">movie</span><span class="font-label-md text-label-md text-on-surface font-semibold">1.428</span><span class="font-body-sm text-body-sm text-on-surface-variant">filmes logados</span></div><div class="flex items-center gap-space-xs px-space-md py-space-xs bg-surface-container-low rounded-lg"><span class="material-symbols-outlined text-tertiary-container text-[18px]">schedule</span><span class="font-label-md text-label-md text-on-surface font-semibold">2.640h</span><span class="font-body-sm text-body-sm text-on-surface-variant">em tela</span></div><div class="flex items-center gap-space-xs px-space-md py-space-xs bg-surface-container-low rounded-lg"><span class="material-symbols-outlined text-secondary text-[18px]">favorite</span><span class="font-label-md text-label-md text-on-surface font-semibold">312</span><span class="font-body-sm text-body-sm text-on-surface-variant">favoritos</span></div></div><div class="flex flex-col items-center md:items-end gap-space-xs text-center md:text-right"><div class="flex items-center gap-space-sm font-label-sm text-label-sm text-on-surface-variant"><span class="material-symbols-outlined text-[16px] text-tertiary">data_object</span><span>Dados alimentados por TMDB API</span></div><p class="font-body-sm text-body-sm text-outline">© 2024 Movie0. Feito para obsessivos por cinema.</p></div></div></footer></body></html>
